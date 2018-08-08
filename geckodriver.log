@@ -1,0 +1,127 @@
+1531148468308	geckodriver	INFO	geckodriver 0.21.0
+1531148468311	geckodriver	INFO	Listening on 127.0.0.1:53173
+1531148469369	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.GtDkIojd4hTv"
+2018-07-09 10:01:16.257 plugin-container[4152:106041] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa13b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531148476641	Marionette	INFO	Listening on port 53188
+2018-07-09 10:01:17.181 plugin-container[4153:106123] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x993b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531148536434	geckodriver	INFO	geckodriver 0.21.0
+1531148536437	geckodriver	INFO	Listening on 127.0.0.1:53524
+1531148537446	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.4dS9AkeqkZtr"
+2018-07-09 10:02:18.556 plugin-container[4181:111891] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531148538855	Marionette	INFO	Listening on port 53539
+1531148538891	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-09 10:02:19.458 plugin-container[4182:112003] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9837, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+1531148810404	geckodriver	INFO	geckodriver 0.21.0
+1531148810408	geckodriver	INFO	Listening on 127.0.0.1:54866
+1531148811414	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.Wu0XFVqYS1P7"
+2018-07-09 10:06:52.349 plugin-container[4239:126808] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531148812669	Marionette	INFO	Listening on port 54882
+1531148812755	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-09 10:06:53.245 plugin-container[4240:126925] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+1531148844313	geckodriver	INFO	geckodriver 0.21.0
+1531148844317	geckodriver	INFO	Listening on 127.0.0.1:55063
+1531148845323	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.JJCZjnjQYSdv"
+2018-07-09 10:07:26.242 plugin-container[4269:128497] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa133, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1531148846543	Marionette	INFO	Listening on port 55079
+1531148846563	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-07-09 10:07:27.140 plugin-container[4270:128616] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533744151238	geckodriver	INFO	geckodriver 0.21.0
+1533744151275	geckodriver	INFO	Listening on 127.0.0.1:60022
+1533744152271	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.pxz83cb0ejP3"
+2018-08-08 11:02:34.970 plugin-container[1153:226069] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-08-08 11:02:35.032 plugin-container[1154:226104] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa237, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744155781	Marionette	INFO	Listening on port 60037
+1533744155803	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-08-08 11:02:36.138 plugin-container[1155:226237] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+1533744176571	geckodriver	INFO	geckodriver 0.21.0
+1533744176575	geckodriver	INFO	Listening on 127.0.0.1:60187
+1533744177584	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.R8S0sQWr1Ilz"
+2018-08-08 11:02:58.511 plugin-container[1182:228898] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa233, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-08-08 11:02:58.670 plugin-container[1183:228947] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa037, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744178800	Marionette	INFO	Listening on port 60202
+1533744178835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+2018-08-08 11:02:59.487 plugin-container[1186:229105] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744207731	geckodriver	INFO	geckodriver 0.21.0
+1533744207735	geckodriver	INFO	Listening on 127.0.0.1:60361
+1533744208740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.9FhzZZuX0G48"
+2018-08-08 11:03:29.681 plugin-container[1213:232565] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa233, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-08-08 11:03:29.826 plugin-container[1214:232612] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744210035	Marionette	INFO	Listening on port 60376
+1533744210081	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+2018-08-08 11:03:30.658 plugin-container[1215:232739] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x992b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+Warning: getUnicodeUrlPath failed to get a Unicode URL fromdata:%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7, reason: URIError: malformed URI sequenceconsole.error: (new TypeError("content.text is undefined", "resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js", 164))
+fetchStylesheetFromNetworkMonitor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:164:1
+fetchStylesheet@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:217:16
+getSheetText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:140:10
+_getText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:506:12
+getText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/stylesheets.js:489:12
+getAuthoredCssText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1262:12
+getApplied@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:472:13
+console.error: "Protocol error (unknownError): content.text is undefined"
+console.error: "Protocol error (unknownError): content.text is undefined"
+console.error: "Protocol error (unknownError): content.text is undefined"
+2018-08-08 11:05:37.777 plugin-container[1241:243844] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744349633	geckodriver	INFO	geckodriver 0.21.0
+1533744349637	geckodriver	INFO	Listening on 127.0.0.1:60979
+1533744350642	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.Twj9UAQgmmzw"
+2018-08-08 11:05:51.573 plugin-container[1266:245854] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa233, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-08-08 11:05:51.735 plugin-container[1267:245893] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744351876	Marionette	INFO	Listening on port 60994
+1533744351971	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-08-08 11:05:52.544 plugin-container[1268:246019] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+1533744499530	geckodriver	INFO	geckodriver 0.21.0
+1533744499534	geckodriver	INFO	Listening on 127.0.0.1:61665
+1533744500538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.oDao26KKBPXS"
+2018-08-08 11:08:21.527 plugin-container[1322:251579] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa233, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-08-08 11:08:21.679 plugin-container[1323:251624] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744501831	Marionette	INFO	Listening on port 61680
+1533744501871	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
+2018-08-08 11:08:22.506 plugin-container[1324:251888] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533744656104	geckodriver	INFO	geckodriver 0.21.0
+1533744656108	geckodriver	INFO	Listening on 127.0.0.1:62375
+1533744657113	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0_/3t0nfxsx5d1gt6w46m2bhpfw0000gp/T/rust_mozprofile.IH3o7EuHgQbB"
+2018-08-08 11:10:58.013 plugin-container[1416:261238] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa437, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-08-08 11:10:58.180 plugin-container[1417:261288] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa133, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1533744658331	Marionette	INFO	Listening on port 62390
+1533744658362	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-08-08 11:10:58.979 plugin-container[1418:261419] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: data:text/html;charset=utf-8,%3Chtml%3E%3Chead%3E%3Cscript%20type%3D%22text%2Fjavascript%22%3Ewindow.onresize%3Dfunction()%7Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%7D%3Bwindow.parent.YAHOO.widget.Module.textResizeEvent.fire()%3B%3C%2Fscript%3E%3C%2Fhead%3E%3Cbody%3E%3C%2Fbody%3E%3C%2Fhtml%3E, line 1: SecurityError: Permission denied to access property "YAHOO" on cross-origin object
