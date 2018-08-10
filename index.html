@@ -18,7 +18,10 @@
 
 	.wrapper {
 		max-width: 700px;
-		/*border: 1px solid red;*/
+	}
+
+	input {
+		width: 300px;
 	}
 
 	#mapid { 
@@ -29,14 +32,11 @@
 	.map__info {
 		width: 100%;
 		margin: 0 auto;
-		/*border: 1px solid red;*/
-		/*text-align: center;*/
 		padding-left: 24px;
 	}
 
 	.map__subheadline {
 		font-family: 'Georgia', sans-serif;
-		/*font-family: 'Libre Franklin', sans-serif;*/
 		font-size: 14px;
 		font-style: italic;
 		margin-top: 4px;
@@ -48,11 +48,9 @@
 		font-weight: 700;
 		color: #4a4a4a;
 		margin-top: 24px;
-		/*text-align: center;*/
 	}
 
 	.map__slider {
-		/*text-align: center;*/
 		font-family: 'Libre Franklin', sans-serif;
 		font-size: 14px;
 	}
@@ -72,7 +70,6 @@
 	}
 
 	.button__wrapper {
-		/*text-align: center;*/
 		margin-bottom: 24px;
 	}
 
@@ -158,14 +155,72 @@
 
 		// Map
 		function init(data) {
-			var mymap = L.map('mapid').setView([38.6270, -90.1994], 11);
-			mymap.scrollWheelZoom.disable();
+			var map = L.map('mapid').setView([38.6301, -90.2564], 11);
+			// var map = L.map('mapid').setView([38.6270, -90.1994], 11);
+			map.scrollWheelZoom.disable();
 
 			L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
 				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 				maxZoom: 18,
 				subdomains: 'abc'
-			}).addTo(mymap);
+			}).addTo(map);
+
+			$.getJSON("neighborhoods.geojson",function(hoodData){
+			  L.geoJson( hoodData ).addTo(map);
+			}); 
+
+			var info = L.control();
+
+			info.onAdd = function (map) {
+				this._div = L.DomUtil.create('div', 'info');
+				this.update();
+				return this._div;
+			};
+
+			info.update = function(props) {
+				if (props) {
+					var neighborhoods = props['NHD_NUM'];
+
+					// // Spreadsheet fields
+					// var apps = props['STLMSAMO_tract_total_applications'];
+					// var granted = props['STLMSAMO_tract_total_loans'];
+					// var denied = props['STLMSAMO_tract_total_denials'];
+					// var other = props['STLMSAMO_tract_total_other_outcomes'];
+					// var white = props['STLMSAMO_tract_white_pop_pct'];
+					// var black = props['STLMSAMO_tract_black_pop_pct'];
+
+					this._div.innerHTML = "<div class='popup'><div class='popup__title'><p>Census tract: <span>" + tract + "</div></p><p>Total applications: <span>" + apps + "</span></p><p>Loans denied: <span>" + denied + "</span></p><p>Total other outcomes: <span>" + other + "</span></p><p>% white population: <span>" + white + "</span></p><p>% black population: <span>" + black + "</span></p><p class='popup__name'><p>Loans made: <span>" + granted + "</span></p></div>";
+					}
+
+				}
+
+			info.addTo(map);
+
+			function onEachFeature(feature, layer) {
+				console.log(feature);
+				layer.on({
+					click: highlightFeature,
+				});
+			}
+
+			function setStyle(feature) {
+				let loans = feature.properties['STLMSAMO_tract_total_loans'];
+
+			    return {
+			        opacity: 0.7,
+			        weight: 1,
+			        color: "#FFF",
+			        fillColor: setColor(loans),
+			        fillOpacity: 0.7
+			    }
+			}
+
+			var geojson;
+
+			geojson = L.geoJson(data, {
+				style: setStyle,
+				onEachFeature: onEachFeature
+			}).addTo(map);
 		}
 
 		$.ajax({
@@ -176,47 +231,52 @@
 			init(data);
 		});
 
-
-		// Slider
-		let step = null;
+		let step = 0;
 
 		var timer = setTimeout(function(){
 			incrementStep();
 		}, 1000);
 
-
+		// Adds one to the input's value
 		function incrementStep() {
 			$(".slider").val(step++);
 		}
 
 		function startTimer() {
-			timer = setTimeout(startTimer, 1000);
 			incrementStep();
+			timer = setTimeout(startTimer, 1000);
 		}
 
 		function stopTimer() {
 			clearTimeout(timer);
 		}
 
+		// Make the value of the input 0
 		function restartTimer() {
-			$(".slider").val(0);
+			step = 0
+
+			$(".slider").val(step);
 		}
 
+		// On click, toggle the play and pause icons
 		$(".btn-play").click(function(){
+			console.log(step);
+
 			$(this).find("i").toggleClass("fa-play fa-pause");
 
 			if ($("i").hasClass("fa-play")) {
 				stopTimer();
 			} else {
-				incrementStep();
 				startTimer();
 			}
 		});
 
+		// On click, stop the timer and reset the value of the input to 0
 		$(".btn-restart").click(function(){
 			stopTimer();
 			restartTimer();
 
+			// Toggle the play and pause icons
 			$(".btn-play").find("i").removeClass("fa-pause");
 			$(".btn-play").find("i").addClass("fa-play");
 		});
