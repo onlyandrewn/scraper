@@ -40,17 +40,7 @@ def get_neighborhoods():
 	return neighborhoods
 
 
-# For each page, get the following data:
-# The headers (Year, Total, Residential, Commerical)
-# The years (1990-2018)
-# Number of vacant total buildings
-# Number of vacant residential buildings
-# Number of vacant commercial buildings
-
 def get_data(soup, nhd_id, nhd_name):
-
-	# html = driver.page_source
-	# soup = BeautifulSoup(html, "html.parser")
 
 	nhd_data = []
 
@@ -58,9 +48,12 @@ def get_data(soup, nhd_id, nhd_name):
 	table__rows = soup.find_all('tr', attrs={'class':'blue12point'})
 
 	for table__row in table__rows:
-		# # Children of table__row
+
+		# Children of table__row
 		row__cells = table__row.find_all("td")
 
+
+		# For each page, get the following data:
 		row__year = row__cells[0].text
 		row__total = row__cells[1].text
 		row__residential = row__cells[2].text
@@ -75,8 +68,6 @@ def get_data(soup, nhd_id, nhd_name):
 
 # Create the spreadsheet
 def make_spreadsheet( out_data ):
-	# Column headers should be neighborhood, with the years from 1990-2018
-	# There should be three spreadsheets (?): one for total, residential and commercial
 
 	with open("vacant.csv", "wb") as f:
 		writer = csv.writer(f)
@@ -84,12 +75,9 @@ def make_spreadsheet( out_data ):
 			writer.writerow( row )
 
 
-
-
 def open_pages():
 
 	neighborhoods = get_neighborhoods()
-	# neighborhoods = [{'id': '1'}, {'id': '2'}, {'id': '3'}]
 
 	out_data = [ ['nhd_id','nhd_name','year','total','residential','commercial'] ]
 
@@ -99,7 +87,6 @@ def open_pages():
 
 		url = 'http://dynamic.stlouis-mo.gov/citydata/newdesign/output.cfm?geo=neigh&subcat=&neighselect=' + neighborhood['id'] + '&reports=f'
 
-		# content = urllib2.urlopen(url).read()
 		driver.get(url)
 		content = driver.page_source
 
@@ -113,33 +100,7 @@ def open_pages():
 
 	make_spreadsheet( out_data )
 
-		# constructURL()
-		# Open web page
-		# get_data()
-
-
 open_pages()
-
-# TO BE REMOVED
-# def make_selection():
-
-# 	# Select a neighborhood
-# 	neighborhood_name = driver.find_element_by_xpath("//option[@value='51']")
-# 	neighborhood_name.click()
-# 	time.sleep(5)
-
-# 	# Select vacant buildings
-# 	vacant = driver.find_element_by_xpath("//option[@value='f']")
-# 	vacant.click()
-# 	time.sleep(5)
-
-# 	# Hit the submit button
-# 	submit = driver.find_element_by_xpath("//input[@type='submit']")
-# 	submit.click()
-# 	time.sleep(5)
-
-# make_selection()
-
 
 
 
