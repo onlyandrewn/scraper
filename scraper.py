@@ -15,88 +15,113 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 
-url = "https://dynamic.stlouis-mo.gov/citydata/newdesign/statsselector.cfm?type=data&geo=neigh"
+neighborhoodListURL = "https://dynamic.stlouis-mo.gov/citydata/newdesign/statsselector.cfm?type=data&geo=neigh"
 
 driver = webdriver.Firefox()
-driver.get(url)
-
-# time.sleep(5)
+driver.get(neighborhoodListURL)
 
 # Empty arrays where the data will be stored
 
+# data = []
+# column_headers = []
 # years = []
-
 # vacant_total = []
 # vacant_residential = []
 # vacant_commercial = []
 
-# This is a script from the St. Louis Post-Dispatch
-# SELECT OPTIONS
+# Names of all 79 neighborhoods in St. Louis
+def get_neighborhoods():
+
+	neighborhoods = []
+
+	content = urllib2.urlopen(neighborhoodListURL).read()
+	soup = BeautifulSoup(content, "html.parser")
+
+	select = soup.find("select", {"name": "neighselect"})
+	options = select.find_all("option")
+
+	for option in options:
+		neighborhoods.append({"name": option.text, "id": option['value']})
+
+	# neighborhoods = [ {"name": option.text, "id": option['value']} for option in options ]
+
+	return neighborhoods
+
+def open_pages():
+
+	# neighborhoods = get_neighborhoods()
+	neighborhoods = [{'id': '1'}, {'id': '2'}, {'id': '3'}]
+
+	for neighborhood in neighborhoods[0:1]:
+
+		time.sleep(2)
+
+		url = 'http://dynamic.stlouis-mo.gov/citydata/newdesign/output.cfm?geo=neigh&subcat=&neighselect=' + neighborhood['id'] + '&reports=f'
+		print url
+
+		# content = urllib2.urlopen(url).read()
+		content = driver.get(url)
+		soup = BeautifulSoup(content, "html.parser")
+
+		data = get_data(soup)
+
+
+		# constructURL()
+		# Open web page
+		# get_data()
+
+
+open_pages()
+
+# TO BE REMOVED
+# def make_selection():
+
+# 	# Select a neighborhood
+# 	neighborhood_name = driver.find_element_by_xpath("//option[@value='51']")
+# 	neighborhood_name.click()
+# 	time.sleep(5)
+
+# 	# Select vacant buildings
+# 	vacant = driver.find_element_by_xpath("//option[@value='f']")
+# 	vacant.click()
+# 	time.sleep(5)
+
+# 	# Hit the submit button
+# 	submit = driver.find_element_by_xpath("//input[@type='submit']")
+# 	submit.click()
+# 	time.sleep(5)
+
+# make_selection()
 
 
 
-# def get_neighborhoods():
-# 	# Names of all 79 neighborhoods in St. Louis
-# 	neighborhoods = []
+# For each page, get the following data:
+# The headers (Year, Total, Residential, Commerical)
+# The years (1990-2018)
+# Number of vacant total buildings
+# Number of vacant residential buildings
+# Number of vacant commercial buildings
 
-# 	content = urllib2.urlopen(url).read()
-# 	soup = BeautifulSoup(content, "html.parser")
+def get_data(soup):
 
-# 	neighborhoods.append(soup.find("select", {"name": "neighselect"}).getText())
+	# html = driver.page_source
+	# soup = BeautifulSoup(html, "html.parser")
 
-# 	for neighbourhood in neighborhoods:
-# 		print neighbourhood
-
-# get_neighborhoods()
-
-
-def make_selection():
-	# Open new window
-
-	# for n in neighborhoods:
-	# 	# Values
-
-	# Select a neighborhood
-	neighborhood_name = driver.find_element_by_xpath("//option[@value='51']")
-	neighborhood_name.click()
-	time.sleep(5)
-
-	# Select vacant buildings
-	vacant = driver.find_element_by_xpath("//option[@value='f']")
-	vacant.click()
-	time.sleep(5)
-
-	# Hit the submit button
-	submit = driver.find_element_by_xpath("//input[@type='submit']")
-	submit.click()
-	time.sleep(5)
-
-make_selection()
-
-
-
-def get_data():
-
-	html = driver.page_source
-	soup = BeautifulSoup(html, "html.parser")
-
-	# neighbourhood_value = []
-	# # neighborhoods = soup.find("select", {"name": "neighselect"}).getText()
-
-	# table__headers = soup.find_all('tr', attrs={'class':'style1'})
-	# # print table__headers
+	# Includes the year, total, residential and commercial
+	table__headers = soup.find('tr', attrs={'class':'style1'}).getText()
+	print table__headers
 
 	# Parent element
 	table__row = soup.find_all('tr', attrs={'class':'blue12point'})
-	print table__row
+	# print table__row
 
 	# # Children of table__row
-	# table__year = table__row.find_all("td")
+	table__year = table__row.find("td")
 	# table__total = table__row.find_all("td")
 	# table__residential = table__row.find_all("td")
 	# table__commercial = table__row.find_all("td")
 
-	# print table__year
+	print table__year
 	# print table__total
 	# print table__residential
 	# print table__commercial
@@ -104,35 +129,19 @@ def get_data():
 get_data()
 
 
-
-
-# AFTER OPTIONS SELECTED (ON AN INDIVIDUAL NEIGHBORHOOD PAGE)
-# FOR EACH NEIGHBOUR LOOP OVER THE FOLLOWING DATA
-
-# This should give you Year, Total, Residential, Commercial
-# table__headers = soup.find("tr", {"class", "style1"}).find_all("td", recursive = False).getText()
-# table__headers = soup.find_all("tr")
-
-# table = soup.findAll('table', 'class': '')
-
-
-
-
-
-
-# CREATE THE SPREADSHEET
-
+# Create the spreadsheet
 # def make_spreadsheet():
+	# Column headers should be neighborhood, with the years from 1990-2018
+	# There should be three spreadsheets (?): one for total, residential and commercial
 
-# 	# .append(neighborhoods)
-# 	# .append(years)
+	# data.append(neighborhoods)
+	# data.append(years)
+	# data.append(vacant_total)
+	# data.append(vacant_residential)
+	# data.append(vacant_commercial)
 
-# 	# .append(vacant_total)
-# 	# .append(vacant_residential)
-# 	# .append(vacant_commercial)
-
-# 	with open("vacant.csv", "w") as f:
-# 		writer = csv.writer()
-# 		writer.writerow()
+	# 	with open("vacant.csv", "w") as f:
+	# 		writer = csv.writer()
+	# 		writer.writerow()
 
 # make_spreadsheet()
