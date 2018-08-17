@@ -1,0 +1,2466 @@
+nhd_id,nhd_name,year,total,residential,commercial
+51,Academy,1990,77,73,12
+51,Academy,1991,99,82,19
+51,Academy,1992,88,81,13
+51,Academy,1993,105,98,10
+51,Academy,1994,116,112,10
+51,Academy,1995,133,127,12
+51,Academy,1996,123,116,12
+51,Academy,1997,140,134,10
+51,Academy,1998,148,144,10
+51,Academy,1999,159,150,13
+51,Academy,2000,174,160,19
+51,Academy,2001,171,158,18
+51,Academy,2002,176,163,18
+51,Academy,2003,177,164,17
+51,Academy,2004,164,151,15
+51,Academy,2005,161,148,15
+51,Academy,2006,150,138,14
+51,Academy,2007,157,144,13
+51,Academy,2008,157,145,12
+51,Academy,2009,137,130,7
+51,Academy,2010,181,174,7
+51,Academy,2011,200,190,7
+51,Academy,2012,213,201,9
+51,Academy,2013,219,207,8
+51,Academy,2014,217,208,5
+51,Academy,2015,223,215,4
+51,Academy,2016,235,228,4
+51,Academy,2017,219,212,4
+51,Academy,2018,219,213,4
+74,Baden,1990,16,12,4
+74,Baden,1991,20,15,5
+74,Baden,1992,33,26,6
+74,Baden,1993,23,17,5
+74,Baden,1994,31,28,3
+74,Baden,1995,26,23,3
+74,Baden,1996,44,40,4
+74,Baden,1997,45,43,3
+74,Baden,1998,79,76,6
+74,Baden,1999,106,103,6
+74,Baden,2000,128,123,8
+74,Baden,2001,138,133,8
+74,Baden,2002,142,138,7
+74,Baden,2003,168,163,9
+74,Baden,2004,167,163,7
+74,Baden,2005,139,135,6
+74,Baden,2006,144,132,11
+74,Baden,2007,111,100,9
+74,Baden,2008,149,138,9
+74,Baden,2009,163,149,12
+74,Baden,2010,172,158,12
+74,Baden,2011,181,166,13
+74,Baden,2012,196,182,12
+74,Baden,2013,193,181,10
+74,Baden,2014,257,241,13
+74,Baden,2015,313,294,17
+74,Baden,2016,290,271,17
+74,Baden,2017,295,276,16
+74,Baden,2018,330,311,16
+22,Benton Park,1990,41,38,8
+22,Benton Park,1991,63,59,12
+22,Benton Park,1992,64,61,7
+22,Benton Park,1993,66,63,8
+22,Benton Park,1994,121,118,20
+22,Benton Park,1995,86,83,17
+22,Benton Park,1996,81,78,18
+22,Benton Park,1997,70,67,14
+22,Benton Park,1998,92,87,13
+22,Benton Park,1999,82,77,14
+22,Benton Park,2000,93,84,16
+22,Benton Park,2001,90,80,18
+22,Benton Park,2002,67,59,15
+22,Benton Park,2003,67,59,15
+22,Benton Park,2004,75,67,16
+22,Benton Park,2005,70,61,14
+22,Benton Park,2006,69,60,13
+22,Benton Park,2007,67,59,11
+22,Benton Park,2008,73,64,11
+22,Benton Park,2009,64,58,8
+22,Benton Park,2010,52,46,8
+22,Benton Park,2011,32,29,6
+22,Benton Park,2012,49,46,6
+22,Benton Park,2013,52,49,6
+22,Benton Park,2014,46,43,5
+22,Benton Park,2015,38,35,5
+22,Benton Park,2016,38,37,3
+22,Benton Park,2017,40,39,3
+22,Benton Park,2018,31,30,2
+30,Benton Park West,1990,27,25,6
+30,Benton Park West,1991,28,26,5
+30,Benton Park West,1992,48,44,10
+30,Benton Park West,1993,35,34,4
+30,Benton Park West,1994,76,76,8
+30,Benton Park West,1995,90,90,10
+30,Benton Park West,1996,84,84,9
+30,Benton Park West,1997,104,101,14
+30,Benton Park West,1998,127,123,15
+30,Benton Park West,1999,131,120,12
+30,Benton Park West,2000,98,92,10
+30,Benton Park West,2001,106,103,7
+30,Benton Park West,2002,124,119,14
+30,Benton Park West,2003,131,125,18
+30,Benton Park West,2004,134,126,19
+30,Benton Park West,2005,108,100,17
+30,Benton Park West,2006,108,101,14
+30,Benton Park West,2007,77,70,11
+30,Benton Park West,2008,68,61,9
+30,Benton Park West,2009,80,74,9
+30,Benton Park West,2010,88,86,6
+30,Benton Park West,2011,84,83,5
+30,Benton Park West,2012,109,108,6
+30,Benton Park West,2013,121,119,5
+30,Benton Park West,2014,127,124,7
+30,Benton Park West,2015,111,108,5
+30,Benton Park West,2016,155,151,7
+30,Benton Park West,2017,152,147,6
+30,Benton Park West,2018,141,132,7
+5,Bevo Mill,1990,7,6,2
+5,Bevo Mill,1991,4,3,2
+5,Bevo Mill,1992,9,5,4
+5,Bevo Mill,1993,6,6,2
+5,Bevo Mill,1994,0,0,0
+5,Bevo Mill,1995,12,9,3
+5,Bevo Mill,1996,13,10,2
+5,Bevo Mill,1997,18,14,4
+5,Bevo Mill,1998,24,15,9
+5,Bevo Mill,1999,33,24,9
+5,Bevo Mill,2000,26,19,8
+5,Bevo Mill,2001,25,19,8
+5,Bevo Mill,2002,41,32,13
+5,Bevo Mill,2003,31,25,9
+5,Bevo Mill,2004,26,20,7
+5,Bevo Mill,2005,33,29,6
+5,Bevo Mill,2006,21,19,4
+5,Bevo Mill,2007,20,19,3
+5,Bevo Mill,2008,59,55,4
+5,Bevo Mill,2009,51,47,4
+5,Bevo Mill,2010,44,40,4
+5,Bevo Mill,2011,46,43,4
+5,Bevo Mill,2012,32,27,5
+5,Bevo Mill,2013,42,37,4
+5,Bevo Mill,2014,37,35,1
+5,Bevo Mill,2015,30,29,1
+5,Bevo Mill,2016,27,27,0
+5,Bevo Mill,2017,17,17,0
+5,Bevo Mill,2018,8,8,0
+28,Botanical Heights,1990,70,66,12
+28,Botanical Heights,1991,88,73,24
+28,Botanical Heights,1992,95,90,13
+28,Botanical Heights,1993,103,96,13
+28,Botanical Heights,1994,84,83,5
+28,Botanical Heights,1995,102,98,9
+28,Botanical Heights,1996,111,107,7
+28,Botanical Heights,1997,103,101,5
+28,Botanical Heights,1998,99,97,3
+28,Botanical Heights,1999,88,86,1
+28,Botanical Heights,2000,84,79,3
+28,Botanical Heights,2001,82,77,3
+28,Botanical Heights,2002,69,66,1
+28,Botanical Heights,2003,91,89,1
+28,Botanical Heights,2004,132,128,4
+28,Botanical Heights,2005,64,61,3
+28,Botanical Heights,2006,47,46,1
+28,Botanical Heights,2007,28,27,1
+28,Botanical Heights,2008,48,41,10
+28,Botanical Heights,2009,48,43,7
+28,Botanical Heights,2010,52,47,5
+28,Botanical Heights,2011,53,47,6
+28,Botanical Heights,2012,44,40,4
+28,Botanical Heights,2013,39,36,3
+28,Botanical Heights,2014,41,37,4
+28,Botanical Heights,2015,34,30,4
+28,Botanical Heights,2016,36,31,5
+28,Botanical Heights,2017,34,31,3
+28,Botanical Heights,2018,31,27,4
+4,Boulevard Heights,1990,1,1,0
+4,Boulevard Heights,1991,1,1,0
+4,Boulevard Heights,1992,1,1,0
+4,Boulevard Heights,1993,0,0,0
+4,Boulevard Heights,1994,0,0,0
+4,Boulevard Heights,1995,3,3,0
+4,Boulevard Heights,1996,3,3,0
+4,Boulevard Heights,1997,3,3,0
+4,Boulevard Heights,1998,1,1,0
+4,Boulevard Heights,1999,4,3,1
+4,Boulevard Heights,2000,5,4,1
+4,Boulevard Heights,2001,1,0,1
+4,Boulevard Heights,2002,2,0,2
+4,Boulevard Heights,2003,8,6,2
+4,Boulevard Heights,2004,5,4,1
+4,Boulevard Heights,2005,1,0,1
+4,Boulevard Heights,2006,0,0,0
+4,Boulevard Heights,2007,2,2,0
+4,Boulevard Heights,2008,5,5,0
+4,Boulevard Heights,2009,3,3,0
+4,Boulevard Heights,2010,1,1,0
+4,Boulevard Heights,2011,1,1,0
+4,Boulevard Heights,2012,4,4,0
+4,Boulevard Heights,2013,4,4,0
+4,Boulevard Heights,2014,4,4,0
+4,Boulevard Heights,2015,1,1,0
+4,Boulevard Heights,2016,1,1,0
+4,Boulevard Heights,2017,1,1,0
+4,Boulevard Heights,2018,2,0,2
+86,Calvary-Bellefontaine Cemetaries,1990,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1991,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1992,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1993,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1994,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1995,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1996,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1997,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1998,0,0,0
+86,Calvary-Bellefontaine Cemetaries,1999,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2000,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2001,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2002,1,1,0
+86,Calvary-Bellefontaine Cemetaries,2003,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2004,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2005,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2006,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2007,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2008,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2009,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2010,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2011,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2012,0,0,0
+86,Calvary-Bellefontaine Cemetaries,2013,1,0,0
+86,Calvary-Bellefontaine Cemetaries,2014,1,0,0
+86,Calvary-Bellefontaine Cemetaries,2015,1,0,0
+86,Calvary-Bellefontaine Cemetaries,2016,1,0,0
+86,Calvary-Bellefontaine Cemetaries,2017,2,1,1
+86,Calvary-Bellefontaine Cemetaries,2018,1,1,0
+1,Carondelet,1990,11,10,3
+1,Carondelet,1991,13,9,4
+1,Carondelet,1992,11,9,1
+1,Carondelet,1993,25,19,9
+1,Carondelet,1994,8,7,2
+1,Carondelet,1995,18,17,2
+1,Carondelet,1996,26,24,2
+1,Carondelet,1997,25,23,2
+1,Carondelet,1998,20,18,2
+1,Carondelet,1999,25,23,3
+1,Carondelet,2000,30,28,3
+1,Carondelet,2001,33,32,3
+1,Carondelet,2002,39,36,3
+1,Carondelet,2003,48,45,2
+1,Carondelet,2004,37,34,4
+1,Carondelet,2005,46,41,5
+1,Carondelet,2006,34,31,4
+1,Carondelet,2007,36,33,5
+1,Carondelet,2008,36,34,4
+1,Carondelet,2009,37,35,5
+1,Carondelet,2010,31,29,5
+1,Carondelet,2011,34,32,5
+1,Carondelet,2012,36,34,6
+1,Carondelet,2013,37,34,7
+1,Carondelet,2014,42,39,7
+1,Carondelet,2015,36,33,7
+1,Carondelet,2016,34,32,6
+1,Carondelet,2017,39,37,6
+1,Carondelet,2018,29,27,6
+80,Carondelet Park,1990,0,0,0
+80,Carondelet Park,1991,0,0,0
+80,Carondelet Park,1992,0,0,0
+80,Carondelet Park,1993,0,0,0
+80,Carondelet Park,1994,0,0,0
+80,Carondelet Park,1995,0,0,0
+80,Carondelet Park,1996,0,0,0
+80,Carondelet Park,1997,0,0,0
+80,Carondelet Park,1998,0,0,0
+80,Carondelet Park,1999,0,0,0
+80,Carondelet Park,2000,0,0,0
+80,Carondelet Park,2001,0,0,0
+80,Carondelet Park,2002,0,0,0
+80,Carondelet Park,2003,0,0,0
+80,Carondelet Park,2004,0,0,0
+80,Carondelet Park,2005,0,0,0
+80,Carondelet Park,2006,0,0,0
+80,Carondelet Park,2007,0,0,0
+80,Carondelet Park,2008,0,0,0
+80,Carondelet Park,2009,0,0,0
+80,Carondelet Park,2010,0,0,0
+80,Carondelet Park,2011,0,0,0
+80,Carondelet Park,2012,0,0,0
+80,Carondelet Park,2013,0,0,0
+80,Carondelet Park,2014,0,0,0
+80,Carondelet Park,2015,0,0,0
+80,Carondelet Park,2016,0,0,0
+80,Carondelet Park,2017,0,0,0
+80,Carondelet Park,2018,0,0,0
+61,Carr Square,1990,14,4,10
+61,Carr Square,1991,4,0,4
+61,Carr Square,1992,9,3,6
+61,Carr Square,1993,1,0,1
+61,Carr Square,1994,5,0,5
+61,Carr Square,1995,6,0,6
+61,Carr Square,1996,8,0,7
+61,Carr Square,1997,9,0,8
+61,Carr Square,1998,9,0,8
+61,Carr Square,1999,35,26,8
+61,Carr Square,2000,36,26,9
+61,Carr Square,2001,5,2,2
+61,Carr Square,2002,2,0,1
+61,Carr Square,2003,1,0,0
+61,Carr Square,2004,1,0,0
+61,Carr Square,2005,1,0,0
+61,Carr Square,2006,1,0,0
+61,Carr Square,2007,1,0,0
+61,Carr Square,2008,1,0,0
+61,Carr Square,2009,1,0,0
+61,Carr Square,2010,1,0,0
+61,Carr Square,2011,1,0,0
+61,Carr Square,2012,1,0,0
+61,Carr Square,2013,1,0,0
+61,Carr Square,2014,1,0,0
+61,Carr Square,2015,1,0,0
+61,Carr Square,2016,1,0,0
+61,Carr Square,2017,1,0,0
+61,Carr Square,2018,2,0,1
+38,Central West End,1990,91,58,41
+38,Central West End,1991,139,82,61
+38,Central West End,1992,96,73,35
+38,Central West End,1993,79,64,32
+38,Central West End,1994,89,80,23
+38,Central West End,1995,96,87,23
+38,Central West End,1996,80,73,20
+38,Central West End,1997,73,64,23
+38,Central West End,1998,65,57,21
+38,Central West End,1999,54,47,17
+38,Central West End,2000,57,46,20
+38,Central West End,2001,57,48,19
+38,Central West End,2002,51,41,20
+38,Central West End,2003,57,42,25
+38,Central West End,2004,41,29,17
+38,Central West End,2005,38,31,12
+38,Central West End,2006,30,26,7
+38,Central West End,2007,37,33,7
+38,Central West End,2008,34,31,7
+38,Central West End,2009,38,34,8
+38,Central West End,2010,53,42,18
+38,Central West End,2011,51,35,23
+38,Central West End,2012,58,41,24
+38,Central West End,2013,50,34,21
+38,Central West End,2014,54,33,24
+38,Central West End,2015,52,29,25
+38,Central West End,2016,46,26,22
+38,Central West End,2017,32,17,18
+38,Central West End,2018,32,18,17
+41,Cheltenham,1990,1,1,0
+41,Cheltenham,1991,3,2,1
+41,Cheltenham,1992,3,3,0
+41,Cheltenham,1993,0,0,0
+41,Cheltenham,1994,5,5,1
+41,Cheltenham,1995,5,5,1
+41,Cheltenham,1996,5,5,1
+41,Cheltenham,1997,4,4,1
+41,Cheltenham,1998,3,3,1
+41,Cheltenham,1999,3,3,1
+41,Cheltenham,2000,3,3,1
+41,Cheltenham,2001,3,3,1
+41,Cheltenham,2002,3,3,0
+41,Cheltenham,2003,2,2,0
+41,Cheltenham,2004,2,2,0
+41,Cheltenham,2005,2,2,0
+41,Cheltenham,2006,5,5,0
+41,Cheltenham,2007,4,4,0
+41,Cheltenham,2008,2,2,0
+41,Cheltenham,2009,1,1,0
+41,Cheltenham,2010,5,4,1
+41,Cheltenham,2011,6,4,2
+41,Cheltenham,2012,3,2,1
+41,Cheltenham,2013,6,5,2
+41,Cheltenham,2014,8,7,2
+41,Cheltenham,2015,10,9,2
+41,Cheltenham,2016,9,8,2
+41,Cheltenham,2017,11,10,2
+41,Cheltenham,2018,13,12,2
+42,Clayton / Tamm,1990,0,0,0
+42,Clayton / Tamm,1991,5,5,0
+42,Clayton / Tamm,1992,3,3,0
+42,Clayton / Tamm,1993,0,0,0
+42,Clayton / Tamm,1994,2,2,0
+42,Clayton / Tamm,1995,3,3,0
+42,Clayton / Tamm,1996,3,3,0
+42,Clayton / Tamm,1997,2,2,0
+42,Clayton / Tamm,1998,3,3,0
+42,Clayton / Tamm,1999,1,1,0
+42,Clayton / Tamm,2000,0,0,0
+42,Clayton / Tamm,2001,0,0,0
+42,Clayton / Tamm,2002,0,0,0
+42,Clayton / Tamm,2003,0,0,0
+42,Clayton / Tamm,2004,1,1,0
+42,Clayton / Tamm,2005,2,2,0
+42,Clayton / Tamm,2006,3,3,0
+42,Clayton / Tamm,2007,1,1,0
+42,Clayton / Tamm,2008,1,1,0
+42,Clayton / Tamm,2009,2,2,0
+42,Clayton / Tamm,2010,9,4,5
+42,Clayton / Tamm,2011,10,5,5
+42,Clayton / Tamm,2012,9,4,5
+42,Clayton / Tamm,2013,9,6,3
+42,Clayton / Tamm,2014,14,10,3
+42,Clayton / Tamm,2015,17,14,3
+42,Clayton / Tamm,2016,17,13,4
+42,Clayton / Tamm,2017,16,13,3
+42,Clayton / Tamm,2018,16,12,3
+11,Clifton Heights,1990,1,1,0
+11,Clifton Heights,1991,2,2,0
+11,Clifton Heights,1992,0,0,0
+11,Clifton Heights,1993,1,1,0
+11,Clifton Heights,1994,1,1,0
+11,Clifton Heights,1995,1,1,0
+11,Clifton Heights,1996,0,0,0
+11,Clifton Heights,1997,2,2,0
+11,Clifton Heights,1998,3,3,0
+11,Clifton Heights,1999,0,0,0
+11,Clifton Heights,2000,2,2,0
+11,Clifton Heights,2001,2,2,0
+11,Clifton Heights,2002,0,0,0
+11,Clifton Heights,2003,1,1,0
+11,Clifton Heights,2004,1,1,0
+11,Clifton Heights,2005,5,5,0
+11,Clifton Heights,2006,7,5,1
+11,Clifton Heights,2007,5,4,0
+11,Clifton Heights,2008,10,8,1
+11,Clifton Heights,2009,9,7,1
+11,Clifton Heights,2010,10,8,1
+11,Clifton Heights,2011,7,5,1
+11,Clifton Heights,2012,10,8,1
+11,Clifton Heights,2013,11,10,0
+11,Clifton Heights,2014,7,7,0
+11,Clifton Heights,2015,3,3,0
+11,Clifton Heights,2016,5,5,0
+11,Clifton Heights,2017,2,2,0
+11,Clifton Heights,2018,2,2,0
+66,College Hill,1990,172,155,23
+66,College Hill,1991,168,157,16
+66,College Hill,1992,138,130,9
+66,College Hill,1993,171,165,16
+66,College Hill,1994,166,159,12
+66,College Hill,1995,194,185,14
+66,College Hill,1996,226,212,20
+66,College Hill,1997,238,224,26
+66,College Hill,1998,244,226,29
+66,College Hill,1999,243,228,25
+66,College Hill,2000,227,213,23
+66,College Hill,2001,223,209,22
+66,College Hill,2002,193,183,16
+66,College Hill,2003,198,187,14
+66,College Hill,2004,200,190,13
+66,College Hill,2005,194,183,13
+66,College Hill,2006,205,196,12
+66,College Hill,2007,193,185,11
+66,College Hill,2008,192,186,10
+66,College Hill,2009,176,171,8
+66,College Hill,2010,183,178,7
+66,College Hill,2011,165,160,6
+66,College Hill,2012,178,172,7
+66,College Hill,2013,205,197,9
+66,College Hill,2014,188,180,9
+66,College Hill,2015,188,180,9
+66,College Hill,2016,179,172,8
+66,College Hill,2017,182,175,8
+66,College Hill,2018,175,168,8
+62,Columbus Square,1990,1,1,0
+62,Columbus Square,1991,6,4,4
+62,Columbus Square,1992,4,3,2
+62,Columbus Square,1993,0,0,0
+62,Columbus Square,1994,4,4,1
+62,Columbus Square,1995,4,4,1
+62,Columbus Square,1996,7,7,1
+62,Columbus Square,1997,12,12,3
+62,Columbus Square,1998,12,12,3
+62,Columbus Square,1999,10,10,2
+62,Columbus Square,2000,10,10,2
+62,Columbus Square,2001,10,10,2
+62,Columbus Square,2002,8,8,1
+62,Columbus Square,2003,7,7,1
+62,Columbus Square,2004,7,7,1
+62,Columbus Square,2005,7,7,1
+62,Columbus Square,2006,0,0,0
+62,Columbus Square,2007,0,0,0
+62,Columbus Square,2008,0,0,0
+62,Columbus Square,2009,0,0,0
+62,Columbus Square,2010,0,0,0
+62,Columbus Square,2011,0,0,0
+62,Columbus Square,2012,0,0,0
+62,Columbus Square,2013,0,0,0
+62,Columbus Square,2014,0,0,0
+62,Columbus Square,2015,0,0,0
+62,Columbus Square,2016,0,0,0
+62,Columbus Square,2017,0,0,0
+62,Columbus Square,2018,0,0,0
+26,Compton Heights,1990,2,2,0
+26,Compton Heights,1991,3,3,0
+26,Compton Heights,1992,2,1,1
+26,Compton Heights,1993,2,2,0
+26,Compton Heights,1994,2,2,0
+26,Compton Heights,1995,1,1,0
+26,Compton Heights,1996,1,1,0
+26,Compton Heights,1997,1,1,0
+26,Compton Heights,1998,3,3,0
+26,Compton Heights,1999,4,4,0
+26,Compton Heights,2000,2,2,0
+26,Compton Heights,2001,1,1,0
+26,Compton Heights,2002,2,2,0
+26,Compton Heights,2003,1,1,0
+26,Compton Heights,2004,0,0,0
+26,Compton Heights,2005,0,0,0
+26,Compton Heights,2006,0,0,0
+26,Compton Heights,2007,0,0,0
+26,Compton Heights,2008,0,0,0
+26,Compton Heights,2009,0,0,0
+26,Compton Heights,2010,0,0,0
+26,Compton Heights,2011,0,0,0
+26,Compton Heights,2012,2,1,2
+26,Compton Heights,2013,4,1,4
+26,Compton Heights,2014,5,2,4
+26,Compton Heights,2015,3,2,2
+26,Compton Heights,2016,3,2,2
+26,Compton Heights,2017,3,2,2
+26,Compton Heights,2018,1,1,0
+77,Covenant Blu / Grand Center,1990,89,69,42
+77,Covenant Blu / Grand Center,1991,111,66,47
+77,Covenant Blu / Grand Center,1992,96,71,35
+77,Covenant Blu / Grand Center,1993,68,58,17
+77,Covenant Blu / Grand Center,1994,69,58,22
+77,Covenant Blu / Grand Center,1995,88,73,29
+77,Covenant Blu / Grand Center,1996,119,94,36
+77,Covenant Blu / Grand Center,1997,103,80,31
+77,Covenant Blu / Grand Center,1998,116,85,38
+77,Covenant Blu / Grand Center,1999,113,82,39
+77,Covenant Blu / Grand Center,2000,117,82,40
+77,Covenant Blu / Grand Center,2001,91,60,36
+77,Covenant Blu / Grand Center,2002,91,64,37
+77,Covenant Blu / Grand Center,2003,71,53,24
+77,Covenant Blu / Grand Center,2004,57,46,15
+77,Covenant Blu / Grand Center,2005,50,40,12
+77,Covenant Blu / Grand Center,2006,43,35,10
+77,Covenant Blu / Grand Center,2007,41,33,10
+77,Covenant Blu / Grand Center,2008,35,28,9
+77,Covenant Blu / Grand Center,2009,37,31,8
+77,Covenant Blu / Grand Center,2010,31,25,8
+77,Covenant Blu / Grand Center,2011,26,21,7
+77,Covenant Blu / Grand Center,2012,39,30,12
+77,Covenant Blu / Grand Center,2013,40,31,12
+77,Covenant Blu / Grand Center,2014,35,28,10
+77,Covenant Blu / Grand Center,2015,34,27,9
+77,Covenant Blu / Grand Center,2016,36,27,11
+77,Covenant Blu / Grand Center,2017,36,26,12
+77,Covenant Blu / Grand Center,2018,38,26,14
+47,DeBaliviere Place,1990,2,2,0
+47,DeBaliviere Place,1991,4,3,1
+47,DeBaliviere Place,1992,7,7,0
+47,DeBaliviere Place,1993,8,8,0
+47,DeBaliviere Place,1994,6,6,0
+47,DeBaliviere Place,1995,6,6,0
+47,DeBaliviere Place,1996,2,2,0
+47,DeBaliviere Place,1997,2,1,1
+47,DeBaliviere Place,1998,2,1,1
+47,DeBaliviere Place,1999,3,2,1
+47,DeBaliviere Place,2000,2,1,1
+47,DeBaliviere Place,2001,1,1,0
+47,DeBaliviere Place,2002,1,1,0
+47,DeBaliviere Place,2003,0,0,0
+47,DeBaliviere Place,2004,0,0,0
+47,DeBaliviere Place,2005,0,0,0
+47,DeBaliviere Place,2006,0,0,0
+47,DeBaliviere Place,2007,0,0,0
+47,DeBaliviere Place,2008,0,0,0
+47,DeBaliviere Place,2009,0,0,0
+47,DeBaliviere Place,2010,0,0,0
+47,DeBaliviere Place,2011,0,0,0
+47,DeBaliviere Place,2012,0,0,0
+47,DeBaliviere Place,2013,0,0,0
+47,DeBaliviere Place,2014,0,0,0
+47,DeBaliviere Place,2015,0,0,0
+47,DeBaliviere Place,2016,0,0,0
+47,DeBaliviere Place,2017,0,0,0
+47,DeBaliviere Place,2018,0,0,0
+35,Downtown,1990,3,1,2
+35,Downtown,1991,17,0,17
+35,Downtown,1992,6,0,5
+35,Downtown,1993,22,2,21
+35,Downtown,1994,4,1,4
+35,Downtown,1995,3,0,3
+35,Downtown,1996,2,0,2
+35,Downtown,1997,15,2,15
+35,Downtown,1998,14,2,14
+35,Downtown,1999,11,2,11
+35,Downtown,2000,11,2,11
+35,Downtown,2001,5,0,5
+35,Downtown,2002,5,0,5
+35,Downtown,2003,4,0,4
+35,Downtown,2004,13,0,13
+35,Downtown,2005,9,0,9
+35,Downtown,2006,7,0,7
+35,Downtown,2007,7,0,7
+35,Downtown,2008,10,0,10
+35,Downtown,2009,9,0,9
+35,Downtown,2010,8,0,8
+35,Downtown,2011,8,0,8
+35,Downtown,2012,15,0,15
+35,Downtown,2013,12,1,11
+35,Downtown,2014,6,0,6
+35,Downtown,2015,7,1,6
+35,Downtown,2016,7,1,6
+35,Downtown,2017,8,1,6
+35,Downtown,2018,29,1,28
+36,Downtown West,1990,27,2,27
+36,Downtown West,1991,40,4,39
+36,Downtown West,1992,14,1,14
+36,Downtown West,1993,8,1,7
+36,Downtown West,1994,11,1,10
+36,Downtown West,1995,16,0,16
+36,Downtown West,1996,14,0,14
+36,Downtown West,1997,14,3,13
+36,Downtown West,1998,10,3,9
+36,Downtown West,1999,8,2,8
+36,Downtown West,2000,8,2,8
+36,Downtown West,2001,3,1,3
+36,Downtown West,2002,1,0,1
+36,Downtown West,2003,0,0,0
+36,Downtown West,2004,1,0,1
+36,Downtown West,2005,1,0,1
+36,Downtown West,2006,1,0,1
+36,Downtown West,2007,1,0,1
+36,Downtown West,2008,1,0,1
+36,Downtown West,2009,1,0,1
+36,Downtown West,2010,1,0,1
+36,Downtown West,2011,1,0,1
+36,Downtown West,2012,1,0,1
+36,Downtown West,2013,4,2,2
+36,Downtown West,2014,4,0,2
+36,Downtown West,2015,5,1,2
+36,Downtown West,2016,7,0,4
+36,Downtown West,2017,5,0,3
+36,Downtown West,2018,16,1,12
+16,Dutchtown,1990,7,7,2
+16,Dutchtown,1991,21,17,7
+16,Dutchtown,1992,26,20,9
+16,Dutchtown,1993,37,34,6
+16,Dutchtown,1994,19,13,7
+16,Dutchtown,1995,43,39,8
+16,Dutchtown,1996,56,48,11
+16,Dutchtown,1997,69,59,10
+16,Dutchtown,1998,56,49,8
+16,Dutchtown,1999,51,47,5
+16,Dutchtown,2000,74,68,6
+16,Dutchtown,2001,71,64,6
+16,Dutchtown,2002,72,67,4
+16,Dutchtown,2003,82,78,3
+16,Dutchtown,2004,107,101,7
+16,Dutchtown,2005,122,116,9
+16,Dutchtown,2006,110,103,10
+16,Dutchtown,2007,116,112,7
+16,Dutchtown,2008,65,61,5
+16,Dutchtown,2009,106,104,3
+16,Dutchtown,2010,143,136,4
+16,Dutchtown,2011,140,134,2
+16,Dutchtown,2012,138,134,3
+16,Dutchtown,2013,146,139,5
+16,Dutchtown,2014,155,149,4
+16,Dutchtown,2015,141,136,4
+16,Dutchtown,2016,139,135,2
+16,Dutchtown,2017,128,123,3
+16,Dutchtown,2018,127,122,3
+10,Ellendale,1990,3,3,0
+10,Ellendale,1991,4,4,1
+10,Ellendale,1992,2,2,0
+10,Ellendale,1993,2,2,0
+10,Ellendale,1994,1,1,0
+10,Ellendale,1995,1,1,0
+10,Ellendale,1996,0,0,0
+10,Ellendale,1997,0,0,0
+10,Ellendale,1998,0,0,0
+10,Ellendale,1999,1,1,0
+10,Ellendale,2000,3,3,0
+10,Ellendale,2001,3,3,0
+10,Ellendale,2002,2,2,0
+10,Ellendale,2003,2,2,0
+10,Ellendale,2004,1,1,0
+10,Ellendale,2005,4,4,0
+10,Ellendale,2006,8,8,0
+10,Ellendale,2007,7,7,0
+10,Ellendale,2008,9,8,1
+10,Ellendale,2009,6,5,1
+10,Ellendale,2010,5,4,1
+10,Ellendale,2011,5,4,1
+10,Ellendale,2012,9,9,0
+10,Ellendale,2013,8,8,0
+10,Ellendale,2014,7,7,0
+10,Ellendale,2015,7,7,0
+10,Ellendale,2016,7,7,0
+10,Ellendale,2017,4,4,0
+10,Ellendale,2018,4,4,0
+67,Fairground Neighborhood,1990,122,120,14
+67,Fairground Neighborhood,1991,131,125,17
+67,Fairground Neighborhood,1992,161,153,12
+67,Fairground Neighborhood,1993,139,136,14
+67,Fairground Neighborhood,1994,153,149,16
+67,Fairground Neighborhood,1995,168,164,16
+67,Fairground Neighborhood,1996,208,195,31
+67,Fairground Neighborhood,1997,205,194,25
+67,Fairground Neighborhood,1998,212,204,23
+67,Fairground Neighborhood,1999,203,194,22
+67,Fairground Neighborhood,2000,186,176,21
+67,Fairground Neighborhood,2001,201,190,21
+67,Fairground Neighborhood,2002,164,156,18
+67,Fairground Neighborhood,2003,167,159,17
+67,Fairground Neighborhood,2004,174,166,17
+67,Fairground Neighborhood,2005,159,152,16
+67,Fairground Neighborhood,2006,178,172,13
+67,Fairground Neighborhood,2007,188,182,10
+67,Fairground Neighborhood,2008,181,176,9
+67,Fairground Neighborhood,2009,157,153,8
+67,Fairground Neighborhood,2010,171,166,8
+67,Fairground Neighborhood,2011,139,135,5
+67,Fairground Neighborhood,2012,183,177,7
+67,Fairground Neighborhood,2013,182,176,6
+67,Fairground Neighborhood,2014,173,168,6
+67,Fairground Neighborhood,2015,173,168,6
+67,Fairground Neighborhood,2016,164,159,6
+67,Fairground Neighborhood,2017,150,147,4
+67,Fairground Neighborhood,2018,151,147,5
+83,Fairgrounds Park,1990,0,0,0
+83,Fairgrounds Park,1991,0,0,0
+83,Fairgrounds Park,1992,2,1,1
+83,Fairgrounds Park,1993,0,0,0
+83,Fairgrounds Park,1994,0,0,0
+83,Fairgrounds Park,1995,0,0,0
+83,Fairgrounds Park,1996,0,0,0
+83,Fairgrounds Park,1997,0,0,0
+83,Fairgrounds Park,1998,0,0,0
+83,Fairgrounds Park,1999,0,0,0
+83,Fairgrounds Park,2000,0,0,0
+83,Fairgrounds Park,2001,0,0,0
+83,Fairgrounds Park,2002,0,0,0
+83,Fairgrounds Park,2003,0,0,0
+83,Fairgrounds Park,2004,0,0,0
+83,Fairgrounds Park,2005,0,0,0
+83,Fairgrounds Park,2006,0,0,0
+83,Fairgrounds Park,2007,0,0,0
+83,Fairgrounds Park,2008,0,0,0
+83,Fairgrounds Park,2009,0,0,0
+83,Fairgrounds Park,2010,0,0,0
+83,Fairgrounds Park,2011,1,1,0
+83,Fairgrounds Park,2012,1,1,0
+83,Fairgrounds Park,2013,2,2,0
+83,Fairgrounds Park,2014,2,2,0
+83,Fairgrounds Park,2015,2,2,0
+83,Fairgrounds Park,2016,2,2,0
+83,Fairgrounds Park,2017,1,1,0
+83,Fairgrounds Park,2018,1,1,0
+82,Forest Park,1990,0,0,0
+82,Forest Park,1991,0,0,0
+82,Forest Park,1992,1,1,0
+82,Forest Park,1993,0,0,0
+82,Forest Park,1994,0,0,0
+82,Forest Park,1995,0,0,0
+82,Forest Park,1996,0,0,0
+82,Forest Park,1997,0,0,0
+82,Forest Park,1998,0,0,0
+82,Forest Park,1999,0,0,0
+82,Forest Park,2000,0,0,0
+82,Forest Park,2001,0,0,0
+82,Forest Park,2002,0,0,0
+82,Forest Park,2003,0,0,0
+82,Forest Park,2004,0,0,0
+82,Forest Park,2005,0,0,0
+82,Forest Park,2006,0,0,0
+82,Forest Park,2007,0,0,0
+82,Forest Park,2008,0,0,0
+82,Forest Park,2009,1,0,1
+82,Forest Park,2010,1,0,1
+82,Forest Park,2011,1,0,1
+82,Forest Park,2012,1,0,1
+82,Forest Park,2013,2,1,1
+82,Forest Park,2014,1,1,0
+82,Forest Park,2015,0,0,0
+82,Forest Park,2016,0,0,0
+82,Forest Park,2017,0,0,0
+82,Forest Park,2018,0,0,0
+39,Forest Park Southeast,1990,102,80,42
+39,Forest Park Southeast,1991,103,90,27
+39,Forest Park Southeast,1992,71,68,14
+39,Forest Park Southeast,1993,62,59,7
+39,Forest Park Southeast,1994,81,76,10
+39,Forest Park Southeast,1995,77,73,10
+39,Forest Park Southeast,1996,66,63,8
+39,Forest Park Southeast,1997,60,57,8
+39,Forest Park Southeast,1998,31,29,6
+39,Forest Park Southeast,1999,29,25,6
+39,Forest Park Southeast,2000,25,22,5
+39,Forest Park Southeast,2001,28,25,5
+39,Forest Park Southeast,2002,21,18,5
+39,Forest Park Southeast,2003,37,35,6
+39,Forest Park Southeast,2004,83,75,9
+39,Forest Park Southeast,2005,81,74,6
+39,Forest Park Southeast,2006,74,67,6
+39,Forest Park Southeast,2007,48,42,4
+39,Forest Park Southeast,2008,116,102,23
+39,Forest Park Southeast,2009,97,87,18
+39,Forest Park Southeast,2010,105,99,12
+39,Forest Park Southeast,2011,135,122,20
+39,Forest Park Southeast,2012,156,142,18
+39,Forest Park Southeast,2013,164,149,19
+39,Forest Park Southeast,2014,182,166,20
+39,Forest Park Southeast,2015,174,158,18
+39,Forest Park Southeast,2016,170,156,14
+39,Forest Park Southeast,2017,154,143,12
+39,Forest Park Southeast,2018,119,108,11
+53,Fountain Park,1990,33,29,10
+53,Fountain Park,1991,49,40,12
+53,Fountain Park,1992,46,38,15
+53,Fountain Park,1993,46,42,12
+53,Fountain Park,1994,52,45,10
+53,Fountain Park,1995,64,58,10
+53,Fountain Park,1996,57,52,11
+53,Fountain Park,1997,62,57,11
+53,Fountain Park,1998,62,56,12
+53,Fountain Park,1999,66,59,14
+53,Fountain Park,2000,72,66,14
+53,Fountain Park,2001,61,55,11
+53,Fountain Park,2002,63,57,11
+53,Fountain Park,2003,49,46,6
+53,Fountain Park,2004,53,51,5
+53,Fountain Park,2005,54,50,6
+53,Fountain Park,2006,47,43,6
+53,Fountain Park,2007,44,40,7
+53,Fountain Park,2008,44,40,7
+53,Fountain Park,2009,47,40,8
+53,Fountain Park,2010,51,43,8
+53,Fountain Park,2011,45,40,5
+53,Fountain Park,2012,60,54,6
+53,Fountain Park,2013,88,79,8
+53,Fountain Park,2014,100,92,7
+53,Fountain Park,2015,97,89,7
+53,Fountain Park,2016,97,89,7
+53,Fountain Park,2017,98,92,5
+53,Fountain Park,2018,98,92,5
+24,Fox Park,1990,35,32,12
+24,Fox Park,1991,64,53,17
+24,Fox Park,1992,64,62,5
+24,Fox Park,1993,84,80,10
+24,Fox Park,1994,64,61,9
+24,Fox Park,1995,67,63,10
+24,Fox Park,1996,51,48,8
+24,Fox Park,1997,38,36,6
+24,Fox Park,1998,33,32,2
+24,Fox Park,1999,57,55,3
+24,Fox Park,2000,55,54,2
+24,Fox Park,2001,43,42,2
+24,Fox Park,2002,40,39,2
+24,Fox Park,2003,74,72,3
+24,Fox Park,2004,77,74,4
+24,Fox Park,2005,59,56,3
+24,Fox Park,2006,46,43,4
+24,Fox Park,2007,35,33,3
+24,Fox Park,2008,39,37,3
+24,Fox Park,2009,32,30,4
+24,Fox Park,2010,41,39,5
+24,Fox Park,2011,47,45,6
+24,Fox Park,2012,54,51,6
+24,Fox Park,2013,58,56,4
+24,Fox Park,2014,53,51,4
+24,Fox Park,2015,48,47,3
+24,Fox Park,2016,44,43,3
+24,Fox Park,2017,30,29,2
+24,Fox Park,2018,26,25,2
+43,Franz Park,1990,8,8,2
+43,Franz Park,1991,6,6,1
+43,Franz Park,1992,4,3,2
+43,Franz Park,1993,7,7,1
+43,Franz Park,1994,3,2,1
+43,Franz Park,1995,1,1,0
+43,Franz Park,1996,4,4,1
+43,Franz Park,1997,3,3,1
+43,Franz Park,1998,7,7,0
+43,Franz Park,1999,5,5,0
+43,Franz Park,2000,4,4,0
+43,Franz Park,2001,3,3,0
+43,Franz Park,2002,5,5,0
+43,Franz Park,2003,4,4,0
+43,Franz Park,2004,1,1,0
+43,Franz Park,2005,2,2,0
+43,Franz Park,2006,5,5,0
+43,Franz Park,2007,4,4,0
+43,Franz Park,2008,4,4,0
+43,Franz Park,2009,4,4,0
+43,Franz Park,2010,7,7,0
+43,Franz Park,2011,6,6,0
+43,Franz Park,2012,10,10,0
+43,Franz Park,2013,13,13,0
+43,Franz Park,2014,13,13,0
+43,Franz Park,2015,11,11,0
+43,Franz Park,2016,12,12,0
+43,Franz Park,2017,9,9,0
+43,Franz Park,2018,8,8,0
+19,Gravois Park,1990,8,5,6
+19,Gravois Park,1991,17,13,7
+19,Gravois Park,1992,16,14,4
+19,Gravois Park,1993,32,32,3
+19,Gravois Park,1994,23,23,2
+19,Gravois Park,1995,75,73,3
+19,Gravois Park,1996,93,91,4
+19,Gravois Park,1997,95,95,2
+19,Gravois Park,1998,74,74,1
+19,Gravois Park,1999,64,59,0
+19,Gravois Park,2000,69,67,1
+19,Gravois Park,2001,70,68,1
+19,Gravois Park,2002,159,151,15
+19,Gravois Park,2003,148,138,17
+19,Gravois Park,2004,178,166,21
+19,Gravois Park,2005,161,153,19
+19,Gravois Park,2006,155,146,18
+19,Gravois Park,2007,151,144,14
+19,Gravois Park,2008,102,98,10
+19,Gravois Park,2009,124,118,16
+19,Gravois Park,2010,174,164,11
+19,Gravois Park,2011,174,164,11
+19,Gravois Park,2012,164,154,9
+19,Gravois Park,2013,162,153,8
+19,Gravois Park,2014,143,134,5
+19,Gravois Park,2015,131,124,4
+19,Gravois Park,2016,134,127,4
+19,Gravois Park,2017,125,117,5
+19,Gravois Park,2018,125,117,5
+78,Hamilton Heights,1990,172,144,50
+78,Hamilton Heights,1991,176,155,47
+78,Hamilton Heights,1992,178,154,34
+78,Hamilton Heights,1993,189,169,36
+78,Hamilton Heights,1994,193,182,34
+78,Hamilton Heights,1995,200,186,34
+78,Hamilton Heights,1996,187,174,28
+78,Hamilton Heights,1997,225,211,29
+78,Hamilton Heights,1998,192,180,25
+78,Hamilton Heights,1999,178,163,27
+78,Hamilton Heights,2000,259,237,37
+78,Hamilton Heights,2001,251,228,35
+78,Hamilton Heights,2002,279,253,42
+78,Hamilton Heights,2003,217,190,39
+78,Hamilton Heights,2004,218,193,37
+78,Hamilton Heights,2005,195,173,33
+78,Hamilton Heights,2006,189,167,31
+78,Hamilton Heights,2007,173,154,26
+78,Hamilton Heights,2008,56,51,7
+78,Hamilton Heights,2009,38,36,3
+78,Hamilton Heights,2010,71,61,11
+78,Hamilton Heights,2011,103,91,13
+78,Hamilton Heights,2012,132,119,15
+78,Hamilton Heights,2013,136,123,15
+78,Hamilton Heights,2014,133,121,14
+78,Hamilton Heights,2015,196,184,14
+78,Hamilton Heights,2016,302,284,24
+78,Hamilton Heights,2017,302,277,31
+78,Hamilton Heights,2018,283,258,31
+44,Hi-Point,1990,1,1,0
+44,Hi-Point,1991,9,9,0
+44,Hi-Point,1992,1,1,0
+44,Hi-Point,1993,1,1,0
+44,Hi-Point,1994,0,0,0
+44,Hi-Point,1995,0,0,0
+44,Hi-Point,1996,0,0,0
+44,Hi-Point,1997,2,2,0
+44,Hi-Point,1998,1,1,0
+44,Hi-Point,1999,1,1,0
+44,Hi-Point,2000,1,1,0
+44,Hi-Point,2001,1,1,0
+44,Hi-Point,2002,1,1,0
+44,Hi-Point,2003,3,3,0
+44,Hi-Point,2004,0,0,0
+44,Hi-Point,2005,1,1,0
+44,Hi-Point,2006,1,1,0
+44,Hi-Point,2007,0,0,0
+44,Hi-Point,2008,0,0,0
+44,Hi-Point,2009,0,0,0
+44,Hi-Point,2010,0,0,0
+44,Hi-Point,2011,3,3,0
+44,Hi-Point,2012,7,7,0
+44,Hi-Point,2013,11,11,0
+44,Hi-Point,2014,11,11,1
+44,Hi-Point,2015,8,8,0
+44,Hi-Point,2016,9,9,0
+44,Hi-Point,2017,10,10,0
+44,Hi-Point,2018,10,10,0
+3,Holly Hills,1990,0,0,0
+3,Holly Hills,1991,0,0,0
+3,Holly Hills,1992,0,0,0
+3,Holly Hills,1993,0,0,0
+3,Holly Hills,1994,0,0,0
+3,Holly Hills,1995,0,0,0
+3,Holly Hills,1996,0,0,0
+3,Holly Hills,1997,0,0,0
+3,Holly Hills,1998,2,1,2
+3,Holly Hills,1999,1,0,1
+3,Holly Hills,2000,1,0,1
+3,Holly Hills,2001,1,0,1
+3,Holly Hills,2002,1,0,1
+3,Holly Hills,2003,5,4,1
+3,Holly Hills,2004,2,2,0
+3,Holly Hills,2005,4,4,0
+3,Holly Hills,2006,2,2,0
+3,Holly Hills,2007,1,1,0
+3,Holly Hills,2008,2,2,0
+3,Holly Hills,2009,2,2,0
+3,Holly Hills,2010,1,1,0
+3,Holly Hills,2011,1,1,0
+3,Holly Hills,2012,0,0,0
+3,Holly Hills,2013,5,5,0
+3,Holly Hills,2014,5,5,0
+3,Holly Hills,2015,1,1,0
+3,Holly Hills,2016,1,1,0
+3,Holly Hills,2017,0,0,0
+3,Holly Hills,2018,0,0,0
+65,Hyde Park,1990,157,147,28
+65,Hyde Park,1991,148,139,28
+65,Hyde Park,1992,174,164,23
+65,Hyde Park,1993,171,163,27
+65,Hyde Park,1994,228,215,31
+65,Hyde Park,1995,259,244,32
+65,Hyde Park,1996,363,337,50
+65,Hyde Park,1997,399,373,53
+65,Hyde Park,1998,395,370,55
+65,Hyde Park,1999,408,385,55
+65,Hyde Park,2000,410,387,50
+65,Hyde Park,2001,428,405,48
+65,Hyde Park,2002,382,360,44
+65,Hyde Park,2003,369,352,37
+65,Hyde Park,2004,384,365,36
+65,Hyde Park,2005,360,347,28
+65,Hyde Park,2006,393,377,23
+65,Hyde Park,2007,398,381,22
+65,Hyde Park,2008,390,373,20
+65,Hyde Park,2009,401,385,19
+65,Hyde Park,2010,416,401,20
+65,Hyde Park,2011,407,392,20
+65,Hyde Park,2012,353,343,18
+65,Hyde Park,2013,345,336,15
+65,Hyde Park,2014,330,323,14
+65,Hyde Park,2015,325,319,12
+65,Hyde Park,2016,297,292,9
+65,Hyde Park,2017,283,279,7
+65,Hyde Park,2018,276,272,6
+59,JeffVanderLou,1990,280,246,65
+59,JeffVanderLou,1991,394,325,88
+59,JeffVanderLou,1992,371,327,65
+59,JeffVanderLou,1993,312,285,56
+59,JeffVanderLou,1994,366,336,76
+59,JeffVanderLou,1995,375,346,73
+59,JeffVanderLou,1996,450,410,84
+59,JeffVanderLou,1997,466,421,92
+59,JeffVanderLou,1998,445,391,99
+59,JeffVanderLou,1999,432,378,94
+59,JeffVanderLou,2000,457,401,87
+59,JeffVanderLou,2001,437,380,89
+59,JeffVanderLou,2002,410,361,85
+59,JeffVanderLou,2003,381,339,77
+59,JeffVanderLou,2004,325,290,65
+59,JeffVanderLou,2005,264,241,49
+59,JeffVanderLou,2006,250,226,44
+59,JeffVanderLou,2007,228,209,30
+59,JeffVanderLou,2008,246,231,25
+59,JeffVanderLou,2009,240,226,24
+59,JeffVanderLou,2010,256,240,21
+59,JeffVanderLou,2011,240,224,21
+59,JeffVanderLou,2012,334,312,28
+59,JeffVanderLou,2013,348,323,29
+59,JeffVanderLou,2014,361,332,30
+59,JeffVanderLou,2015,368,337,31
+59,JeffVanderLou,2016,372,343,28
+59,JeffVanderLou,2017,371,346,25
+59,JeffVanderLou,2018,459,428,31
+40,Kings Oak,1990,0,0,0
+40,Kings Oak,1991,3,2,1
+40,Kings Oak,1992,4,4,0
+40,Kings Oak,1993,0,0,0
+40,Kings Oak,1994,0,0,0
+40,Kings Oak,1995,0,0,0
+40,Kings Oak,1996,0,0,0
+40,Kings Oak,1997,0,0,0
+40,Kings Oak,1998,0,0,0
+40,Kings Oak,1999,0,0,0
+40,Kings Oak,2000,0,0,0
+40,Kings Oak,2001,0,0,0
+40,Kings Oak,2002,0,0,0
+40,Kings Oak,2003,0,0,0
+40,Kings Oak,2004,0,0,0
+40,Kings Oak,2005,0,0,0
+40,Kings Oak,2006,0,0,0
+40,Kings Oak,2007,0,0,0
+40,Kings Oak,2008,0,0,0
+40,Kings Oak,2009,0,0,0
+40,Kings Oak,2010,0,0,0
+40,Kings Oak,2011,3,1,2
+40,Kings Oak,2012,5,3,2
+40,Kings Oak,2013,5,3,2
+40,Kings Oak,2014,5,3,2
+40,Kings Oak,2015,8,6,2
+40,Kings Oak,2016,8,5,3
+40,Kings Oak,2017,6,3,3
+40,Kings Oak,2018,6,2,4
+55,Kingsway East,1990,32,29,6
+55,Kingsway East,1991,55,52,8
+55,Kingsway East,1992,51,44,11
+55,Kingsway East,1993,49,46,5
+55,Kingsway East,1994,39,35,7
+55,Kingsway East,1995,62,58,9
+55,Kingsway East,1996,71,66,8
+55,Kingsway East,1997,68,63,8
+55,Kingsway East,1998,76,72,8
+55,Kingsway East,1999,89,85,8
+55,Kingsway East,2000,98,92,6
+55,Kingsway East,2001,101,96,9
+55,Kingsway East,2002,104,97,11
+55,Kingsway East,2003,107,95,15
+55,Kingsway East,2004,108,96,15
+55,Kingsway East,2005,105,93,15
+55,Kingsway East,2006,112,102,15
+55,Kingsway East,2007,105,95,13
+55,Kingsway East,2008,136,126,13
+55,Kingsway East,2009,136,125,13
+55,Kingsway East,2010,129,122,9
+55,Kingsway East,2011,163,155,10
+55,Kingsway East,2012,187,179,10
+55,Kingsway East,2013,185,179,7
+55,Kingsway East,2014,225,212,10
+55,Kingsway East,2015,244,233,11
+55,Kingsway East,2016,257,246,12
+55,Kingsway East,2017,241,229,12
+55,Kingsway East,2018,243,230,13
+52,Kingsway West,1990,17,12,7
+52,Kingsway West,1991,34,25,12
+52,Kingsway West,1992,31,24,9
+52,Kingsway West,1993,26,22,5
+52,Kingsway West,1994,22,21,3
+52,Kingsway West,1995,32,25,9
+52,Kingsway West,1996,33,26,8
+52,Kingsway West,1997,39,31,9
+52,Kingsway West,1998,42,35,9
+52,Kingsway West,1999,54,46,10
+52,Kingsway West,2000,49,40,11
+52,Kingsway West,2001,50,40,12
+52,Kingsway West,2002,49,41,10
+52,Kingsway West,2003,55,48,9
+52,Kingsway West,2004,56,49,9
+52,Kingsway West,2005,45,39,7
+52,Kingsway West,2006,55,50,5
+52,Kingsway West,2007,60,55,5
+52,Kingsway West,2008,70,64,5
+52,Kingsway West,2009,62,56,5
+52,Kingsway West,2010,69,65,5
+52,Kingsway West,2011,88,84,5
+52,Kingsway West,2012,80,77,4
+52,Kingsway West,2013,105,104,2
+52,Kingsway West,2014,124,123,2
+52,Kingsway West,2015,124,123,2
+52,Kingsway West,2016,129,128,3
+52,Kingsway West,2017,136,135,2
+52,Kingsway West,2018,147,146,2
+20,Kosciusko,1990,0,0,0
+20,Kosciusko,1991,4,3,2
+20,Kosciusko,1992,2,1,1
+20,Kosciusko,1993,3,2,3
+20,Kosciusko,1994,1,1,1
+20,Kosciusko,1995,1,1,1
+20,Kosciusko,1996,1,1,1
+20,Kosciusko,1997,1,1,1
+20,Kosciusko,1998,1,1,1
+20,Kosciusko,1999,1,1,1
+20,Kosciusko,2000,1,1,1
+20,Kosciusko,2001,1,1,1
+20,Kosciusko,2002,1,1,1
+20,Kosciusko,2003,1,1,1
+20,Kosciusko,2004,2,1,2
+20,Kosciusko,2005,2,1,2
+20,Kosciusko,2006,1,1,1
+20,Kosciusko,2007,1,1,1
+20,Kosciusko,2008,1,1,1
+20,Kosciusko,2009,1,1,1
+20,Kosciusko,2010,0,0,0
+20,Kosciusko,2011,0,0,0
+20,Kosciusko,2012,0,0,0
+20,Kosciusko,2013,2,0,2
+20,Kosciusko,2014,1,0,1
+20,Kosciusko,2015,1,0,1
+20,Kosciusko,2016,1,0,1
+20,Kosciusko,2017,1,0,1
+20,Kosciusko,2018,1,0,1
+34,La Salle,1990,2,2,1
+34,La Salle,1991,5,5,1
+34,La Salle,1992,2,1,2
+34,La Salle,1993,3,3,0
+34,La Salle,1994,4,4,1
+34,La Salle,1995,4,4,1
+34,La Salle,1996,3,3,1
+34,La Salle,1997,3,3,1
+34,La Salle,1998,6,3,4
+34,La Salle,1999,8,1,5
+34,La Salle,2000,6,1,5
+34,La Salle,2001,1,1,0
+34,La Salle,2002,1,1,0
+34,La Salle,2003,0,0,0
+34,La Salle,2004,2,0,2
+34,La Salle,2005,0,0,0
+34,La Salle,2006,0,0,0
+34,La Salle,2007,0,0,0
+34,La Salle,2008,1,1,0
+34,La Salle,2009,0,0,0
+34,La Salle,2010,0,0,0
+34,La Salle,2011,0,0,0
+34,La Salle,2012,0,0,0
+34,La Salle,2013,2,1,0
+34,La Salle,2014,1,0,0
+34,La Salle,2015,1,0,0
+34,La Salle,2016,1,0,0
+34,La Salle,2017,1,0,0
+34,La Salle,2018,1,0,0
+32,Lafayette Square,1990,25,24,3
+32,Lafayette Square,1991,26,25,6
+32,Lafayette Square,1992,26,24,6
+32,Lafayette Square,1993,24,22,5
+32,Lafayette Square,1994,20,19,7
+32,Lafayette Square,1995,21,19,6
+32,Lafayette Square,1996,24,22,6
+32,Lafayette Square,1997,19,18,3
+32,Lafayette Square,1998,18,17,3
+32,Lafayette Square,1999,18,17,3
+32,Lafayette Square,2000,19,19,2
+32,Lafayette Square,2001,15,15,2
+32,Lafayette Square,2002,15,15,2
+32,Lafayette Square,2003,7,7,0
+32,Lafayette Square,2004,6,6,0
+32,Lafayette Square,2005,6,6,0
+32,Lafayette Square,2006,6,6,0
+32,Lafayette Square,2007,6,6,0
+32,Lafayette Square,2008,3,2,1
+32,Lafayette Square,2009,4,3,1
+32,Lafayette Square,2010,12,9,4
+32,Lafayette Square,2011,10,8,3
+32,Lafayette Square,2012,9,7,3
+32,Lafayette Square,2013,6,5,2
+32,Lafayette Square,2014,5,4,2
+32,Lafayette Square,2015,5,4,2
+32,Lafayette Square,2016,5,4,2
+32,Lafayette Square,2017,5,4,2
+32,Lafayette Square,2018,5,3,3
+54,Lewis Place,1990,80,72,22
+54,Lewis Place,1991,103,82,27
+54,Lewis Place,1992,88,82,14
+54,Lewis Place,1993,112,103,27
+54,Lewis Place,1994,104,101,12
+54,Lewis Place,1995,125,120,17
+54,Lewis Place,1996,114,111,12
+54,Lewis Place,1997,115,109,15
+54,Lewis Place,1998,105,102,12
+54,Lewis Place,1999,93,90,12
+54,Lewis Place,2000,94,88,12
+54,Lewis Place,2001,92,86,10
+54,Lewis Place,2002,95,89,9
+54,Lewis Place,2003,97,90,9
+54,Lewis Place,2004,90,84,6
+54,Lewis Place,2005,86,80,6
+54,Lewis Place,2006,88,81,6
+54,Lewis Place,2007,80,74,5
+54,Lewis Place,2008,65,59,5
+54,Lewis Place,2009,88,80,6
+54,Lewis Place,2010,88,79,7
+54,Lewis Place,2011,89,80,6
+54,Lewis Place,2012,124,112,11
+54,Lewis Place,2013,149,136,13
+54,Lewis Place,2014,152,137,15
+54,Lewis Place,2015,162,147,15
+54,Lewis Place,2016,166,150,17
+54,Lewis Place,2017,153,137,16
+54,Lewis Place,2018,152,139,14
+9,Lindenwood Park,1990,1,0,1
+9,Lindenwood Park,1991,6,5,1
+9,Lindenwood Park,1992,1,1,0
+9,Lindenwood Park,1993,0,0,0
+9,Lindenwood Park,1994,0,0,0
+9,Lindenwood Park,1995,1,1,0
+9,Lindenwood Park,1996,1,1,0
+9,Lindenwood Park,1997,2,2,0
+9,Lindenwood Park,1998,2,2,0
+9,Lindenwood Park,1999,2,2,0
+9,Lindenwood Park,2000,2,2,0
+9,Lindenwood Park,2001,6,6,0
+9,Lindenwood Park,2002,1,1,0
+9,Lindenwood Park,2003,0,0,0
+9,Lindenwood Park,2004,2,1,1
+9,Lindenwood Park,2005,0,0,0
+9,Lindenwood Park,2006,0,0,0
+9,Lindenwood Park,2007,1,1,0
+9,Lindenwood Park,2008,4,4,0
+9,Lindenwood Park,2009,0,0,0
+9,Lindenwood Park,2010,5,4,1
+9,Lindenwood Park,2011,6,5,1
+9,Lindenwood Park,2012,10,9,1
+9,Lindenwood Park,2013,12,12,0
+9,Lindenwood Park,2014,8,8,0
+9,Lindenwood Park,2015,7,7,0
+9,Lindenwood Park,2016,4,4,0
+9,Lindenwood Park,2017,4,4,0
+9,Lindenwood Park,2018,4,4,0
+18,Marine Villa,1990,12,12,0
+18,Marine Villa,1991,25,22,7
+18,Marine Villa,1992,38,36,2
+18,Marine Villa,1993,39,38,5
+18,Marine Villa,1994,33,31,3
+18,Marine Villa,1995,67,62,5
+18,Marine Villa,1996,67,62,5
+18,Marine Villa,1997,59,54,4
+18,Marine Villa,1998,57,54,2
+18,Marine Villa,1999,53,51,1
+18,Marine Villa,2000,55,53,2
+18,Marine Villa,2001,66,65,2
+18,Marine Villa,2002,80,77,4
+18,Marine Villa,2003,69,66,4
+18,Marine Villa,2004,65,61,4
+18,Marine Villa,2005,63,60,3
+18,Marine Villa,2006,58,55,3
+18,Marine Villa,2007,54,50,4
+18,Marine Villa,2008,36,33,5
+18,Marine Villa,2009,58,55,5
+18,Marine Villa,2010,51,50,3
+18,Marine Villa,2011,47,46,3
+18,Marine Villa,2012,47,45,4
+18,Marine Villa,2013,55,53,4
+18,Marine Villa,2014,57,54,4
+18,Marine Villa,2015,46,44,3
+18,Marine Villa,2016,55,53,3
+18,Marine Villa,2017,45,43,3
+18,Marine Villa,2018,43,40,3
+71,Mark Twain,1990,91,89,6
+71,Mark Twain,1991,76,67,7
+71,Mark Twain,1992,134,126,13
+71,Mark Twain,1993,129,120,14
+71,Mark Twain,1994,118,118,7
+71,Mark Twain,1995,113,112,7
+71,Mark Twain,1996,101,100,8
+71,Mark Twain,1997,122,119,7
+71,Mark Twain,1998,208,200,9
+71,Mark Twain,1999,216,203,10
+71,Mark Twain,2000,190,179,8
+71,Mark Twain,2001,167,158,7
+71,Mark Twain,2002,162,156,5
+71,Mark Twain,2003,170,166,6
+71,Mark Twain,2004,211,208,3
+71,Mark Twain,2005,157,153,4
+71,Mark Twain,2006,126,120,5
+71,Mark Twain,2007,125,119,5
+71,Mark Twain,2008,125,119,5
+71,Mark Twain,2009,108,102,5
+71,Mark Twain,2010,105,99,5
+71,Mark Twain,2011,113,107,5
+71,Mark Twain,2012,109,103,5
+71,Mark Twain,2013,113,108,4
+71,Mark Twain,2014,117,113,3
+71,Mark Twain,2015,127,123,3
+71,Mark Twain,2016,165,160,3
+71,Mark Twain,2017,178,173,3
+71,Mark Twain,2018,190,185,3
+70,Mark Twain / I-70 Industrial,1990,1,1,0
+70,Mark Twain / I-70 Industrial,1991,3,1,2
+70,Mark Twain / I-70 Industrial,1992,5,3,3
+70,Mark Twain / I-70 Industrial,1993,2,2,0
+70,Mark Twain / I-70 Industrial,1994,1,1,0
+70,Mark Twain / I-70 Industrial,1995,2,2,1
+70,Mark Twain / I-70 Industrial,1996,2,2,1
+70,Mark Twain / I-70 Industrial,1997,11,9,3
+70,Mark Twain / I-70 Industrial,1998,15,9,7
+70,Mark Twain / I-70 Industrial,1999,13,9,5
+70,Mark Twain / I-70 Industrial,2000,12,6,7
+70,Mark Twain / I-70 Industrial,2001,11,6,6
+70,Mark Twain / I-70 Industrial,2002,11,7,5
+70,Mark Twain / I-70 Industrial,2003,13,9,4
+70,Mark Twain / I-70 Industrial,2004,10,7,3
+70,Mark Twain / I-70 Industrial,2005,9,6,3
+70,Mark Twain / I-70 Industrial,2006,9,6,3
+70,Mark Twain / I-70 Industrial,2007,6,5,1
+70,Mark Twain / I-70 Industrial,2008,6,5,1
+70,Mark Twain / I-70 Industrial,2009,4,4,0
+70,Mark Twain / I-70 Industrial,2010,3,3,0
+70,Mark Twain / I-70 Industrial,2011,4,4,0
+70,Mark Twain / I-70 Industrial,2012,2,2,0
+70,Mark Twain / I-70 Industrial,2013,2,2,0
+70,Mark Twain / I-70 Industrial,2014,2,2,0
+70,Mark Twain / I-70 Industrial,2015,2,2,0
+70,Mark Twain / I-70 Industrial,2016,3,3,0
+70,Mark Twain / I-70 Industrial,2017,6,6,0
+70,Mark Twain / I-70 Industrial,2018,6,6,0
+23,McKinley Heights,1990,16,16,1
+23,McKinley Heights,1991,28,26,1
+23,McKinley Heights,1992,9,9,1
+23,McKinley Heights,1993,25,25,1
+23,McKinley Heights,1994,30,30,2
+23,McKinley Heights,1995,32,32,2
+23,McKinley Heights,1996,30,30,2
+23,McKinley Heights,1997,22,22,2
+23,McKinley Heights,1998,26,25,3
+23,McKinley Heights,1999,28,27,2
+23,McKinley Heights,2000,21,21,1
+23,McKinley Heights,2001,19,19,1
+23,McKinley Heights,2002,16,16,1
+23,McKinley Heights,2003,27,26,2
+23,McKinley Heights,2004,24,23,1
+23,McKinley Heights,2005,18,17,1
+23,McKinley Heights,2006,16,15,1
+23,McKinley Heights,2007,12,11,1
+23,McKinley Heights,2008,21,20,1
+23,McKinley Heights,2009,13,12,1
+23,McKinley Heights,2010,18,16,2
+23,McKinley Heights,2011,21,19,2
+23,McKinley Heights,2012,18,16,2
+23,McKinley Heights,2013,13,12,1
+23,McKinley Heights,2014,15,15,0
+23,McKinley Heights,2015,12,12,0
+23,McKinley Heights,2016,10,10,0
+23,McKinley Heights,2017,10,10,0
+23,McKinley Heights,2018,5,5,0
+37,Midtown,1990,36,31,9
+37,Midtown,1991,38,14,27
+37,Midtown,1992,21,8,14
+37,Midtown,1993,11,4,9
+37,Midtown,1994,10,6,5
+37,Midtown,1995,11,6,7
+37,Midtown,1996,13,6,10
+37,Midtown,1997,8,4,6
+37,Midtown,1998,17,4,16
+37,Midtown,1999,30,5,28
+37,Midtown,2000,14,2,13
+37,Midtown,2001,14,2,13
+37,Midtown,2002,7,0,7
+37,Midtown,2003,10,4,6
+37,Midtown,2004,8,5,4
+37,Midtown,2005,12,5,8
+37,Midtown,2006,12,5,8
+37,Midtown,2007,11,4,8
+37,Midtown,2008,12,3,9
+37,Midtown,2009,15,6,9
+37,Midtown,2010,14,4,10
+37,Midtown,2011,15,4,11
+37,Midtown,2012,11,2,8
+37,Midtown,2013,13,3,9
+37,Midtown,2014,18,7,10
+37,Midtown,2015,7,4,2
+37,Midtown,2016,9,6,2
+37,Midtown,2017,8,6,1
+37,Midtown,2018,13,6,6
+17,Mount Pleasant,1990,0,0,0
+17,Mount Pleasant,1991,6,3,4
+17,Mount Pleasant,1992,5,5,0
+17,Mount Pleasant,1993,8,8,1
+17,Mount Pleasant,1994,2,2,0
+17,Mount Pleasant,1995,12,12,0
+17,Mount Pleasant,1996,14,13,1
+17,Mount Pleasant,1997,16,15,3
+17,Mount Pleasant,1998,13,12,2
+17,Mount Pleasant,1999,12,11,2
+17,Mount Pleasant,2000,22,20,3
+17,Mount Pleasant,2001,33,32,2
+17,Mount Pleasant,2002,37,36,2
+17,Mount Pleasant,2003,37,36,2
+17,Mount Pleasant,2004,33,32,2
+17,Mount Pleasant,2005,44,43,3
+17,Mount Pleasant,2006,34,33,3
+17,Mount Pleasant,2007,17,17,2
+17,Mount Pleasant,2008,16,16,2
+17,Mount Pleasant,2009,23,23,3
+17,Mount Pleasant,2010,22,22,2
+17,Mount Pleasant,2011,24,24,2
+17,Mount Pleasant,2012,35,35,2
+17,Mount Pleasant,2013,51,51,2
+17,Mount Pleasant,2014,51,51,2
+17,Mount Pleasant,2015,53,52,3
+17,Mount Pleasant,2016,72,70,4
+17,Mount Pleasant,2017,71,69,3
+17,Mount Pleasant,2018,79,76,4
+64,Near North Riverfront,1990,18,10,9
+64,Near North Riverfront,1991,55,27,31
+64,Near North Riverfront,1992,48,19,32
+64,Near North Riverfront,1993,45,21,24
+64,Near North Riverfront,1994,33,24,17
+64,Near North Riverfront,1995,39,32,12
+64,Near North Riverfront,1996,34,27,11
+64,Near North Riverfront,1997,47,32,21
+64,Near North Riverfront,1998,57,38,24
+64,Near North Riverfront,1999,53,34,25
+64,Near North Riverfront,2000,50,30,26
+64,Near North Riverfront,2001,45,29,23
+64,Near North Riverfront,2002,52,29,27
+64,Near North Riverfront,2003,53,29,28
+64,Near North Riverfront,2004,54,28,30
+64,Near North Riverfront,2005,54,30,29
+64,Near North Riverfront,2006,49,26,28
+64,Near North Riverfront,2007,48,25,28
+64,Near North Riverfront,2008,40,24,21
+64,Near North Riverfront,2009,47,27,25
+64,Near North Riverfront,2010,46,27,24
+64,Near North Riverfront,2011,45,26,23
+64,Near North Riverfront,2012,42,22,23
+64,Near North Riverfront,2013,36,19,20
+64,Near North Riverfront,2014,37,19,21
+64,Near North Riverfront,2015,36,18,20
+64,Near North Riverfront,2016,36,18,20
+64,Near North Riverfront,2017,31,13,20
+64,Near North Riverfront,2018,26,9,20
+14,North Hampton,1990,0,0,0
+14,North Hampton,1991,0,0,0
+14,North Hampton,1992,2,1,1
+14,North Hampton,1993,1,0,1
+14,North Hampton,1994,0,0,0
+14,North Hampton,1995,0,0,0
+14,North Hampton,1996,7,7,0
+14,North Hampton,1997,8,8,0
+14,North Hampton,1998,4,4,0
+14,North Hampton,1999,3,3,0
+14,North Hampton,2000,4,4,0
+14,North Hampton,2001,5,4,0
+14,North Hampton,2002,0,0,0
+14,North Hampton,2003,0,0,0
+14,North Hampton,2004,9,4,5
+14,North Hampton,2005,6,2,4
+14,North Hampton,2006,6,2,4
+14,North Hampton,2007,6,2,4
+14,North Hampton,2008,5,1,4
+14,North Hampton,2009,4,1,3
+14,North Hampton,2010,3,1,2
+14,North Hampton,2011,4,2,2
+14,North Hampton,2012,10,6,4
+14,North Hampton,2013,16,11,5
+14,North Hampton,2014,12,8,4
+14,North Hampton,2015,12,9,3
+14,North Hampton,2016,14,11,3
+14,North Hampton,2017,11,8,3
+14,North Hampton,2018,13,10,3
+73,North Point,1990,3,3,0
+73,North Point,1991,7,4,3
+73,North Point,1992,2,1,1
+73,North Point,1993,1,1,0
+73,North Point,1994,1,1,0
+73,North Point,1995,1,1,0
+73,North Point,1996,5,5,0
+73,North Point,1997,5,5,0
+73,North Point,1998,6,6,0
+73,North Point,1999,8,6,2
+73,North Point,2000,7,5,2
+73,North Point,2001,7,5,2
+73,North Point,2002,8,6,2
+73,North Point,2003,16,14,2
+73,North Point,2004,22,21,1
+73,North Point,2005,17,16,1
+73,North Point,2006,20,19,1
+73,North Point,2007,25,24,1
+73,North Point,2008,28,27,1
+73,North Point,2009,21,21,0
+73,North Point,2010,12,12,0
+73,North Point,2011,11,11,0
+73,North Point,2012,10,10,0
+73,North Point,2013,6,6,0
+73,North Point,2014,6,6,0
+73,North Point,2015,13,13,0
+73,North Point,2016,13,13,0
+73,North Point,2017,21,19,2
+73,North Point,2018,21,19,2
+79,North Riverfront,1990,6,6,0
+79,North Riverfront,1991,15,12,3
+79,North Riverfront,1992,18,14,4
+79,North Riverfront,1993,13,11,3
+79,North Riverfront,1994,16,16,2
+79,North Riverfront,1995,18,18,2
+79,North Riverfront,1996,21,20,3
+79,North Riverfront,1997,22,20,4
+79,North Riverfront,1998,17,15,4
+79,North Riverfront,1999,16,13,5
+79,North Riverfront,2000,15,12,4
+79,North Riverfront,2001,9,7,3
+79,North Riverfront,2002,14,8,7
+79,North Riverfront,2003,19,12,8
+79,North Riverfront,2004,18,11,8
+79,North Riverfront,2005,26,18,9
+79,North Riverfront,2006,27,22,6
+79,North Riverfront,2007,12,11,2
+79,North Riverfront,2008,8,7,2
+79,North Riverfront,2009,13,12,2
+79,North Riverfront,2010,13,12,2
+79,North Riverfront,2011,13,12,2
+79,North Riverfront,2012,10,8,2
+79,North Riverfront,2013,9,7,2
+79,North Riverfront,2014,10,6,4
+79,North Riverfront,2015,10,6,4
+79,North Riverfront,2016,11,8,3
+79,North Riverfront,2017,8,6,2
+79,North Riverfront,2018,10,6,4
+68,O'Fallon,1990,88,83,16
+68,O'Fallon,1991,115,100,19
+68,O'Fallon,1992,122,115,19
+68,O'Fallon,1993,99,95,17
+68,O'Fallon,1994,119,118,15
+68,O'Fallon,1995,117,117,12
+68,O'Fallon,1996,122,121,14
+68,O'Fallon,1997,113,112,14
+68,O'Fallon,1998,176,172,24
+68,O'Fallon,1999,184,179,22
+68,O'Fallon,2000,164,155,21
+68,O'Fallon,2001,179,171,21
+68,O'Fallon,2002,151,143,20
+68,O'Fallon,2003,176,165,24
+68,O'Fallon,2004,185,177,22
+68,O'Fallon,2005,165,159,14
+68,O'Fallon,2006,198,194,16
+68,O'Fallon,2007,191,184,16
+68,O'Fallon,2008,179,173,15
+68,O'Fallon,2009,200,196,15
+68,O'Fallon,2010,195,189,16
+68,O'Fallon,2011,216,212,15
+68,O'Fallon,2012,227,223,15
+68,O'Fallon,2013,303,287,17
+68,O'Fallon,2014,309,295,15
+68,O'Fallon,2015,296,283,15
+68,O'Fallon,2016,347,334,12
+68,O'Fallon,2017,364,352,9
+68,O'Fallon,2018,391,378,9
+63,Old North St. Louis,1990,94,79,26
+63,Old North St. Louis,1991,113,94,34
+63,Old North St. Louis,1992,87,77,21
+63,Old North St. Louis,1993,91,72,27
+63,Old North St. Louis,1994,87,80,14
+63,Old North St. Louis,1995,93,87,15
+63,Old North St. Louis,1996,115,104,22
+63,Old North St. Louis,1997,140,121,32
+63,Old North St. Louis,1998,131,113,32
+63,Old North St. Louis,1999,141,124,30
+63,Old North St. Louis,2000,143,125,32
+63,Old North St. Louis,2001,133,117,30
+63,Old North St. Louis,2002,126,112,27
+63,Old North St. Louis,2003,114,101,23
+63,Old North St. Louis,2004,101,90,20
+63,Old North St. Louis,2005,100,91,18
+63,Old North St. Louis,2006,87,78,15
+63,Old North St. Louis,2007,78,70,14
+63,Old North St. Louis,2008,65,63,5
+63,Old North St. Louis,2009,65,63,5
+63,Old North St. Louis,2010,72,69,6
+63,Old North St. Louis,2011,66,63,5
+63,Old North St. Louis,2012,70,66,6
+63,Old North St. Louis,2013,91,81,10
+63,Old North St. Louis,2014,93,83,10
+63,Old North St. Louis,2015,92,81,11
+63,Old North St. Louis,2016,85,75,9
+63,Old North St. Louis,2017,87,77,9
+63,Old North St. Louis,2018,80,72,8
+2,Patch,1990,13,13,1
+2,Patch,1991,26,19,7
+2,Patch,1992,20,19,2
+2,Patch,1993,22,13,7
+2,Patch,1994,40,39,4
+2,Patch,1995,54,51,4
+2,Patch,1996,18,17,2
+2,Patch,1997,17,15,2
+2,Patch,1998,22,20,2
+2,Patch,1999,13,11,2
+2,Patch,2000,12,10,2
+2,Patch,2001,12,10,2
+2,Patch,2002,22,20,2
+2,Patch,2003,17,16,1
+2,Patch,2004,22,21,1
+2,Patch,2005,24,22,2
+2,Patch,2006,15,13,2
+2,Patch,2007,24,20,4
+2,Patch,2008,30,27,4
+2,Patch,2009,27,24,4
+2,Patch,2010,26,23,4
+2,Patch,2011,34,31,5
+2,Patch,2012,41,40,3
+2,Patch,2013,45,44,2
+2,Patch,2014,45,44,2
+2,Patch,2015,31,30,2
+2,Patch,2016,31,30,2
+2,Patch,2017,31,30,2
+2,Patch,2018,25,24,2
+33,"Peabody, Darst, Webbe",1990,13,13,0
+33,"Peabody, Darst, Webbe",1991,12,10,4
+33,"Peabody, Darst, Webbe",1992,23,18,6
+33,"Peabody, Darst, Webbe",1993,15,13,5
+33,"Peabody, Darst, Webbe",1994,20,17,8
+33,"Peabody, Darst, Webbe",1995,21,18,8
+33,"Peabody, Darst, Webbe",1996,15,12,7
+33,"Peabody, Darst, Webbe",1997,10,8,5
+33,"Peabody, Darst, Webbe",1998,15,13,4
+33,"Peabody, Darst, Webbe",1999,15,13,4
+33,"Peabody, Darst, Webbe",2000,16,14,4
+33,"Peabody, Darst, Webbe",2001,20,17,4
+33,"Peabody, Darst, Webbe",2002,9,8,2
+33,"Peabody, Darst, Webbe",2003,7,6,2
+33,"Peabody, Darst, Webbe",2004,7,6,2
+33,"Peabody, Darst, Webbe",2005,6,6,1
+33,"Peabody, Darst, Webbe",2006,5,5,0
+33,"Peabody, Darst, Webbe",2007,7,7,0
+33,"Peabody, Darst, Webbe",2008,6,6,0
+33,"Peabody, Darst, Webbe",2009,7,7,0
+33,"Peabody, Darst, Webbe",2010,9,8,1
+33,"Peabody, Darst, Webbe",2011,9,8,1
+33,"Peabody, Darst, Webbe",2012,9,8,1
+33,"Peabody, Darst, Webbe",2013,7,6,1
+33,"Peabody, Darst, Webbe",2014,7,6,1
+33,"Peabody, Darst, Webbe",2015,7,6,1
+33,"Peabody, Darst, Webbe",2016,5,4,1
+33,"Peabody, Darst, Webbe",2017,5,4,1
+33,"Peabody, Darst, Webbe",2018,4,4,0
+69,Penrose,1990,42,34,12
+69,Penrose,1991,59,52,14
+69,Penrose,1992,68,61,14
+69,Penrose,1993,55,47,9
+69,Penrose,1994,47,45,7
+69,Penrose,1995,73,68,11
+69,Penrose,1996,82,77,12
+69,Penrose,1997,80,73,12
+69,Penrose,1998,127,119,21
+69,Penrose,1999,133,124,23
+69,Penrose,2000,122,112,20
+69,Penrose,2001,122,108,21
+69,Penrose,2002,127,113,22
+69,Penrose,2003,117,106,14
+69,Penrose,2004,125,117,12
+69,Penrose,2005,131,126,10
+69,Penrose,2006,156,148,10
+69,Penrose,2007,152,142,10
+69,Penrose,2008,168,157,11
+69,Penrose,2009,191,179,11
+69,Penrose,2010,155,144,12
+69,Penrose,2011,215,204,12
+69,Penrose,2012,207,196,12
+69,Penrose,2013,216,208,8
+69,Penrose,2014,214,206,8
+69,Penrose,2015,214,206,8
+69,Penrose,2016,320,310,7
+69,Penrose,2017,332,325,5
+69,Penrose,2018,311,302,6
+84,Penrose Park,1990,0,0,0
+84,Penrose Park,1991,0,0,0
+84,Penrose Park,1992,0,0,0
+84,Penrose Park,1993,0,0,0
+84,Penrose Park,1994,0,0,0
+84,Penrose Park,1995,0,0,0
+84,Penrose Park,1996,0,0,0
+84,Penrose Park,1997,0,0,0
+84,Penrose Park,1998,0,0,0
+84,Penrose Park,1999,0,0,0
+84,Penrose Park,2000,0,0,0
+84,Penrose Park,2001,0,0,0
+84,Penrose Park,2002,0,0,0
+84,Penrose Park,2003,0,0,0
+84,Penrose Park,2004,0,0,0
+84,Penrose Park,2005,0,0,0
+84,Penrose Park,2006,0,0,0
+84,Penrose Park,2007,0,0,0
+84,Penrose Park,2008,0,0,0
+84,Penrose Park,2009,0,0,0
+84,Penrose Park,2010,0,0,0
+84,Penrose Park,2011,0,0,0
+84,Penrose Park,2012,0,0,0
+84,Penrose Park,2013,0,0,0
+84,Penrose Park,2014,0,0,0
+84,Penrose Park,2015,0,0,0
+84,Penrose Park,2016,0,0,0
+84,Penrose Park,2017,0,0,0
+84,Penrose Park,2018,0,0,0
+6,Princeton Heights,1990,0,0,0
+6,Princeton Heights,1991,0,0,0
+6,Princeton Heights,1992,0,0,0
+6,Princeton Heights,1993,0,0,0
+6,Princeton Heights,1994,0,0,0
+6,Princeton Heights,1995,0,0,0
+6,Princeton Heights,1996,0,0,0
+6,Princeton Heights,1997,0,0,0
+6,Princeton Heights,1998,1,1,0
+6,Princeton Heights,1999,2,2,0
+6,Princeton Heights,2000,3,3,0
+6,Princeton Heights,2001,1,1,0
+6,Princeton Heights,2002,4,4,2
+6,Princeton Heights,2003,5,5,2
+6,Princeton Heights,2004,6,6,2
+6,Princeton Heights,2005,5,5,1
+6,Princeton Heights,2006,3,3,1
+6,Princeton Heights,2007,4,4,1
+6,Princeton Heights,2008,7,7,1
+6,Princeton Heights,2009,8,8,1
+6,Princeton Heights,2010,5,5,1
+6,Princeton Heights,2011,5,5,1
+6,Princeton Heights,2012,4,4,1
+6,Princeton Heights,2013,2,2,0
+6,Princeton Heights,2014,2,2,0
+6,Princeton Heights,2015,1,1,0
+6,Princeton Heights,2016,0,0,0
+6,Princeton Heights,2017,1,1,0
+6,Princeton Heights,2018,0,0,0
+75,Riverview,1990,1,1,0
+75,Riverview,1991,0,0,0
+75,Riverview,1992,1,1,0
+75,Riverview,1993,0,0,0
+75,Riverview,1994,0,0,0
+75,Riverview,1995,0,0,0
+75,Riverview,1996,0,0,0
+75,Riverview,1997,0,0,0
+75,Riverview,1998,0,0,0
+75,Riverview,1999,0,0,0
+75,Riverview,2000,0,0,0
+75,Riverview,2001,0,0,0
+75,Riverview,2002,0,0,0
+75,Riverview,2003,0,0,0
+75,Riverview,2004,0,0,0
+75,Riverview,2005,0,0,0
+75,Riverview,2006,1,0,1
+75,Riverview,2007,1,0,1
+75,Riverview,2008,1,0,1
+75,Riverview,2009,1,0,1
+75,Riverview,2010,0,0,0
+75,Riverview,2011,0,0,0
+75,Riverview,2012,0,0,0
+75,Riverview,2013,0,0,0
+75,Riverview,2014,0,0,0
+75,Riverview,2015,0,0,0
+75,Riverview,2016,0,0,0
+75,Riverview,2017,0,0,0
+75,Riverview,2018,0,0,0
+27,Shaw,1990,33,28,8
+27,Shaw,1991,35,28,7
+27,Shaw,1992,39,37,3
+27,Shaw,1993,41,39,5
+27,Shaw,1994,30,30,3
+27,Shaw,1995,43,43,6
+27,Shaw,1996,46,46,5
+27,Shaw,1997,39,39,4
+27,Shaw,1998,46,46,4
+27,Shaw,1999,52,52,3
+27,Shaw,2000,50,48,5
+27,Shaw,2001,44,42,3
+27,Shaw,2002,36,34,3
+27,Shaw,2003,60,56,5
+27,Shaw,2004,51,49,3
+27,Shaw,2005,32,30,3
+27,Shaw,2006,30,28,3
+27,Shaw,2007,26,25,1
+27,Shaw,2008,20,19,1
+27,Shaw,2009,26,25,1
+27,Shaw,2010,24,24,0
+27,Shaw,2011,23,23,0
+27,Shaw,2012,27,26,1
+27,Shaw,2013,18,17,1
+27,Shaw,2014,18,17,1
+27,Shaw,2015,11,11,0
+27,Shaw,2016,7,7,0
+27,Shaw,2017,6,6,0
+27,Shaw,2018,7,7,0
+46,Skinker / DeBaliviere,1990,6,6,4
+46,Skinker / DeBaliviere,1991,9,9,1
+46,Skinker / DeBaliviere,1992,21,18,4
+46,Skinker / DeBaliviere,1993,18,18,1
+46,Skinker / DeBaliviere,1994,16,15,5
+46,Skinker / DeBaliviere,1995,22,18,7
+46,Skinker / DeBaliviere,1996,20,16,6
+46,Skinker / DeBaliviere,1997,22,17,7
+46,Skinker / DeBaliviere,1998,17,12,7
+46,Skinker / DeBaliviere,1999,16,13,7
+46,Skinker / DeBaliviere,2000,20,16,8
+46,Skinker / DeBaliviere,2001,16,13,7
+46,Skinker / DeBaliviere,2002,14,11,7
+46,Skinker / DeBaliviere,2003,6,5,2
+46,Skinker / DeBaliviere,2004,2,1,1
+46,Skinker / DeBaliviere,2005,6,6,0
+46,Skinker / DeBaliviere,2006,8,8,0
+46,Skinker / DeBaliviere,2007,2,2,0
+46,Skinker / DeBaliviere,2008,3,3,0
+46,Skinker / DeBaliviere,2009,3,3,0
+46,Skinker / DeBaliviere,2010,5,5,0
+46,Skinker / DeBaliviere,2011,6,6,0
+46,Skinker / DeBaliviere,2012,8,8,0
+46,Skinker / DeBaliviere,2013,9,9,0
+46,Skinker / DeBaliviere,2014,7,7,0
+46,Skinker / DeBaliviere,2015,4,4,0
+46,Skinker / DeBaliviere,2016,4,4,0
+46,Skinker / DeBaliviere,2017,4,4,0
+46,Skinker / DeBaliviere,2018,4,4,0
+21,Soulard,1990,51,49,5
+21,Soulard,1991,57,54,8
+21,Soulard,1992,64,54,19
+21,Soulard,1993,40,36,7
+21,Soulard,1994,60,56,8
+21,Soulard,1995,59,54,9
+21,Soulard,1996,55,51,7
+21,Soulard,1997,50,46,7
+21,Soulard,1998,49,45,7
+21,Soulard,1999,47,43,7
+21,Soulard,2000,48,44,7
+21,Soulard,2001,49,43,8
+21,Soulard,2002,33,29,4
+21,Soulard,2003,44,37,7
+21,Soulard,2004,52,43,8
+21,Soulard,2005,34,30,4
+21,Soulard,2006,31,27,4
+21,Soulard,2007,28,25,4
+21,Soulard,2008,19,17,3
+21,Soulard,2009,21,19,3
+21,Soulard,2010,21,20,1
+21,Soulard,2011,18,17,1
+21,Soulard,2012,23,21,2
+21,Soulard,2013,29,24,4
+21,Soulard,2014,19,15,3
+21,Soulard,2015,21,18,2
+21,Soulard,2016,23,19,3
+21,Soulard,2017,25,21,3
+21,Soulard,2018,20,17,2
+7,Southampton,1990,0,0,0
+7,Southampton,1991,1,0,1
+7,Southampton,1992,0,0,0
+7,Southampton,1993,0,0,0
+7,Southampton,1994,0,0,0
+7,Southampton,1995,1,1,0
+7,Southampton,1996,1,1,0
+7,Southampton,1997,2,2,0
+7,Southampton,1998,0,0,0
+7,Southampton,1999,1,1,0
+7,Southampton,2000,1,1,0
+7,Southampton,2001,3,3,0
+7,Southampton,2002,2,2,0
+7,Southampton,2003,4,2,2
+7,Southampton,2004,1,0,1
+7,Southampton,2005,5,3,2
+7,Southampton,2006,6,5,1
+7,Southampton,2007,7,6,1
+7,Southampton,2008,5,4,1
+7,Southampton,2009,2,1,1
+7,Southampton,2010,5,4,1
+7,Southampton,2011,4,3,1
+7,Southampton,2012,6,4,0
+7,Southampton,2013,7,5,0
+7,Southampton,2014,5,4,0
+7,Southampton,2015,3,3,0
+7,Southampton,2016,3,3,0
+7,Southampton,2017,4,4,0
+7,Southampton,2018,4,4,0
+13,Southwest Garden,1990,7,4,3
+13,Southwest Garden,1991,10,5,5
+13,Southwest Garden,1992,9,9,0
+13,Southwest Garden,1993,9,8,2
+13,Southwest Garden,1994,4,4,1
+13,Southwest Garden,1995,11,11,1
+13,Southwest Garden,1996,11,11,1
+13,Southwest Garden,1997,7,7,0
+13,Southwest Garden,1998,19,19,0
+13,Southwest Garden,1999,14,13,1
+13,Southwest Garden,2000,15,12,3
+13,Southwest Garden,2001,16,12,4
+13,Southwest Garden,2002,11,9,2
+13,Southwest Garden,2003,9,9,0
+13,Southwest Garden,2004,5,4,1
+13,Southwest Garden,2005,5,4,1
+13,Southwest Garden,2006,5,5,0
+13,Southwest Garden,2007,4,4,0
+13,Southwest Garden,2008,4,4,0
+13,Southwest Garden,2009,6,5,1
+13,Southwest Garden,2010,5,5,0
+13,Southwest Garden,2011,5,5,0
+13,Southwest Garden,2012,5,5,0
+13,Southwest Garden,2013,6,6,0
+13,Southwest Garden,2014,7,7,0
+13,Southwest Garden,2015,9,9,0
+13,Southwest Garden,2016,8,8,0
+13,Southwest Garden,2017,9,9,0
+13,Southwest Garden,2018,8,8,0
+8,St. Louis Hills,1990,0,0,0
+8,St. Louis Hills,1991,0,0,0
+8,St. Louis Hills,1992,0,0,0
+8,St. Louis Hills,1993,0,0,0
+8,St. Louis Hills,1994,0,0,0
+8,St. Louis Hills,1995,0,0,0
+8,St. Louis Hills,1996,0,0,0
+8,St. Louis Hills,1997,1,0,1
+8,St. Louis Hills,1998,0,0,0
+8,St. Louis Hills,1999,0,0,0
+8,St. Louis Hills,2000,0,0,0
+8,St. Louis Hills,2001,0,0,0
+8,St. Louis Hills,2002,0,0,0
+8,St. Louis Hills,2003,2,1,1
+8,St. Louis Hills,2004,0,0,0
+8,St. Louis Hills,2005,0,0,0
+8,St. Louis Hills,2006,0,0,0
+8,St. Louis Hills,2007,0,0,0
+8,St. Louis Hills,2008,0,0,0
+8,St. Louis Hills,2009,0,0,0
+8,St. Louis Hills,2010,0,0,0
+8,St. Louis Hills,2011,0,0,0
+8,St. Louis Hills,2012,0,0,0
+8,St. Louis Hills,2013,2,1,1
+8,St. Louis Hills,2014,0,0,0
+8,St. Louis Hills,2015,0,0,0
+8,St. Louis Hills,2016,0,0,0
+8,St. Louis Hills,2017,0,0,0
+8,St. Louis Hills,2018,0,0,0
+60,St. Louis Place,1990,203,172,43
+60,St. Louis Place,1991,211,185,37
+60,St. Louis Place,1992,191,177,17
+60,St. Louis Place,1993,199,174,25
+60,St. Louis Place,1994,180,165,23
+60,St. Louis Place,1995,200,181,24
+60,St. Louis Place,1996,206,190,21
+60,St. Louis Place,1997,241,216,31
+60,St. Louis Place,1998,210,187,28
+60,St. Louis Place,1999,202,179,30
+60,St. Louis Place,2000,215,188,38
+60,St. Louis Place,2001,206,180,34
+60,St. Louis Place,2002,188,162,31
+60,St. Louis Place,2003,164,145,23
+60,St. Louis Place,2004,160,142,22
+60,St. Louis Place,2005,140,126,17
+60,St. Louis Place,2006,122,109,15
+60,St. Louis Place,2007,116,104,15
+60,St. Louis Place,2008,115,105,13
+60,St. Louis Place,2009,113,103,16
+60,St. Louis Place,2010,110,100,16
+60,St. Louis Place,2011,110,100,16
+60,St. Louis Place,2012,119,107,15
+60,St. Louis Place,2013,145,129,19
+60,St. Louis Place,2014,146,130,19
+60,St. Louis Place,2015,156,141,18
+60,St. Louis Place,2016,156,141,18
+60,St. Louis Place,2017,129,115,17
+60,St. Louis Place,2018,108,94,14
+31,The Gate District,1990,69,67,8
+31,The Gate District,1991,108,95,16
+31,The Gate District,1992,94,87,17
+31,The Gate District,1993,81,75,9
+31,The Gate District,1994,75,73,9
+31,The Gate District,1995,87,84,8
+31,The Gate District,1996,83,79,7
+31,The Gate District,1997,65,63,5
+31,The Gate District,1998,84,82,7
+31,The Gate District,1999,77,75,7
+31,The Gate District,2000,79,79,5
+31,The Gate District,2001,71,70,4
+31,The Gate District,2002,72,71,4
+31,The Gate District,2003,63,63,3
+31,The Gate District,2004,40,40,3
+31,The Gate District,2005,28,28,3
+31,The Gate District,2006,40,37,4
+31,The Gate District,2007,29,26,4
+31,The Gate District,2008,27,24,3
+31,The Gate District,2009,23,21,2
+31,The Gate District,2010,23,21,2
+31,The Gate District,2011,22,20,0
+31,The Gate District,2012,24,21,1
+31,The Gate District,2013,22,19,1
+31,The Gate District,2014,23,20,1
+31,The Gate District,2015,24,21,1
+31,The Gate District,2016,28,25,1
+31,The Gate District,2017,23,22,0
+31,The Gate District,2018,23,22,0
+56,The Greater Ville,1990,130,128,17
+56,The Greater Ville,1991,209,197,19
+56,The Greater Ville,1992,298,271,42
+56,The Greater Ville,1993,266,246,35
+56,The Greater Ville,1994,338,328,39
+56,The Greater Ville,1995,394,381,38
+56,The Greater Ville,1996,365,352,32
+56,The Greater Ville,1997,392,376,39
+56,The Greater Ville,1998,438,427,35
+56,The Greater Ville,1999,430,418,35
+56,The Greater Ville,2000,443,429,36
+56,The Greater Ville,2001,432,419,30
+56,The Greater Ville,2002,458,446,31
+56,The Greater Ville,2003,463,451,35
+56,The Greater Ville,2004,467,457,34
+56,The Greater Ville,2005,417,407,27
+56,The Greater Ville,2006,414,404,25
+56,The Greater Ville,2007,360,351,18
+56,The Greater Ville,2008,371,362,14
+56,The Greater Ville,2009,341,333,9
+56,The Greater Ville,2010,392,382,10
+56,The Greater Ville,2011,442,432,10
+56,The Greater Ville,2012,482,471,15
+56,The Greater Ville,2013,473,462,18
+56,The Greater Ville,2014,526,513,21
+56,The Greater Ville,2015,547,532,22
+56,The Greater Ville,2016,530,516,22
+56,The Greater Ville,2017,563,547,23
+56,The Greater Ville,2018,557,539,21
+12,The Hill,1990,2,1,1
+12,The Hill,1991,12,10,6
+12,The Hill,1992,2,2,0
+12,The Hill,1993,0,0,0
+12,The Hill,1994,4,2,2
+12,The Hill,1995,3,1,2
+12,The Hill,1996,2,1,1
+12,The Hill,1997,2,1,1
+12,The Hill,1998,4,3,1
+12,The Hill,1999,2,1,1
+12,The Hill,2000,1,1,0
+12,The Hill,2001,0,0,0
+12,The Hill,2002,7,6,2
+12,The Hill,2003,4,3,2
+12,The Hill,2004,3,2,2
+12,The Hill,2005,3,2,2
+12,The Hill,2006,3,2,2
+12,The Hill,2007,3,2,2
+12,The Hill,2008,4,3,2
+12,The Hill,2009,8,3,5
+12,The Hill,2010,8,3,5
+12,The Hill,2011,10,5,5
+12,The Hill,2012,11,5,6
+12,The Hill,2013,13,7,6
+12,The Hill,2014,12,6,6
+12,The Hill,2015,9,3,6
+12,The Hill,2016,8,4,4
+12,The Hill,2017,8,4,4
+12,The Hill,2018,5,4,1
+57,The Ville,1990,75,71,9
+57,The Ville,1991,127,120,14
+57,The Ville,1992,145,135,14
+57,The Ville,1993,180,176,23
+57,The Ville,1994,203,193,28
+57,The Ville,1995,224,212,33
+57,The Ville,1996,188,180,28
+57,The Ville,1997,201,193,29
+57,The Ville,1998,211,200,31
+57,The Ville,1999,205,193,28
+57,The Ville,2000,213,195,26
+57,The Ville,2001,201,182,25
+57,The Ville,2002,211,192,28
+57,The Ville,2003,213,196,28
+57,The Ville,2004,209,193,29
+57,The Ville,2005,187,174,26
+57,The Ville,2006,178,169,19
+57,The Ville,2007,164,158,14
+57,The Ville,2008,167,160,14
+57,The Ville,2009,152,146,12
+57,The Ville,2010,174,169,10
+57,The Ville,2011,197,194,7
+57,The Ville,2012,210,206,10
+57,The Ville,2013,192,190,9
+57,The Ville,2014,210,204,11
+57,The Ville,2015,218,211,12
+57,The Ville,2016,213,205,13
+57,The Ville,2017,225,213,17
+57,The Ville,2018,223,212,17
+29,Tiffany,1990,13,12,5
+29,Tiffany,1991,12,10,4
+29,Tiffany,1992,13,12,3
+29,Tiffany,1993,12,12,2
+29,Tiffany,1994,9,7,3
+29,Tiffany,1995,12,9,5
+29,Tiffany,1996,6,3,4
+29,Tiffany,1997,7,4,4
+29,Tiffany,1998,5,2,3
+29,Tiffany,1999,4,1,3
+29,Tiffany,2000,1,1,0
+29,Tiffany,2001,1,1,0
+29,Tiffany,2002,1,1,0
+29,Tiffany,2003,6,6,0
+29,Tiffany,2004,6,6,0
+29,Tiffany,2005,6,6,0
+29,Tiffany,2006,5,5,0
+29,Tiffany,2007,5,5,0
+29,Tiffany,2008,4,4,0
+29,Tiffany,2009,4,4,0
+29,Tiffany,2010,5,5,0
+29,Tiffany,2011,4,4,0
+29,Tiffany,2012,5,5,0
+29,Tiffany,2013,5,5,0
+29,Tiffany,2014,4,4,0
+29,Tiffany,2015,4,4,0
+29,Tiffany,2016,1,1,0
+29,Tiffany,2017,1,1,0
+29,Tiffany,2018,1,1,0
+25,Tower Grove East,1990,9,9,0
+25,Tower Grove East,1991,20,20,2
+25,Tower Grove East,1992,24,24,0
+25,Tower Grove East,1993,26,26,6
+25,Tower Grove East,1994,36,36,2
+25,Tower Grove East,1995,33,33,2
+25,Tower Grove East,1996,41,41,2
+25,Tower Grove East,1997,40,40,2
+25,Tower Grove East,1998,38,37,1
+25,Tower Grove East,1999,48,47,1
+25,Tower Grove East,2000,57,56,1
+25,Tower Grove East,2001,57,57,1
+25,Tower Grove East,2002,63,63,0
+25,Tower Grove East,2003,94,93,5
+25,Tower Grove East,2004,78,77,4
+25,Tower Grove East,2005,40,39,1
+25,Tower Grove East,2006,39,38,2
+25,Tower Grove East,2007,30,29,2
+25,Tower Grove East,2008,40,39,4
+25,Tower Grove East,2009,38,37,4
+25,Tower Grove East,2010,41,40,5
+25,Tower Grove East,2011,46,45,5
+25,Tower Grove East,2012,55,51,7
+25,Tower Grove East,2013,66,62,8
+25,Tower Grove East,2014,47,45,4
+25,Tower Grove East,2015,39,37,4
+25,Tower Grove East,2016,35,34,3
+25,Tower Grove East,2017,24,23,3
+25,Tower Grove East,2018,19,18,3
+81,Tower Grove Park,1990,0,0,0
+81,Tower Grove Park,1991,0,0,0
+81,Tower Grove Park,1992,0,0,0
+81,Tower Grove Park,1993,0,0,0
+81,Tower Grove Park,1994,0,0,0
+81,Tower Grove Park,1995,0,0,0
+81,Tower Grove Park,1996,0,0,0
+81,Tower Grove Park,1997,0,0,0
+81,Tower Grove Park,1998,0,0,0
+81,Tower Grove Park,1999,0,0,0
+81,Tower Grove Park,2000,0,0,0
+81,Tower Grove Park,2001,0,0,0
+81,Tower Grove Park,2002,0,0,0
+81,Tower Grove Park,2003,0,0,0
+81,Tower Grove Park,2004,0,0,0
+81,Tower Grove Park,2005,0,0,0
+81,Tower Grove Park,2006,0,0,0
+81,Tower Grove Park,2007,0,0,0
+81,Tower Grove Park,2008,0,0,0
+81,Tower Grove Park,2009,0,0,0
+81,Tower Grove Park,2010,0,0,0
+81,Tower Grove Park,2011,0,0,0
+81,Tower Grove Park,2012,0,0,0
+81,Tower Grove Park,2013,0,0,0
+81,Tower Grove Park,2014,0,0,0
+81,Tower Grove Park,2015,0,0,0
+81,Tower Grove Park,2016,0,0,0
+81,Tower Grove Park,2017,0,0,0
+81,Tower Grove Park,2018,0,0,0
+15,Tower Grove South,1990,7,7,2
+15,Tower Grove South,1991,23,23,5
+15,Tower Grove South,1992,8,8,1
+15,Tower Grove South,1993,21,15,6
+15,Tower Grove South,1994,5,5,1
+15,Tower Grove South,1995,24,23,4
+15,Tower Grove South,1996,30,30,2
+15,Tower Grove South,1997,45,45,3
+15,Tower Grove South,1998,44,42,4
+15,Tower Grove South,1999,38,36,3
+15,Tower Grove South,2000,34,34,2
+15,Tower Grove South,2001,45,44,3
+15,Tower Grove South,2002,53,53,2
+15,Tower Grove South,2003,54,54,2
+15,Tower Grove South,2004,45,44,3
+15,Tower Grove South,2005,22,21,1
+15,Tower Grove South,2006,17,14,3
+15,Tower Grove South,2007,14,10,3
+15,Tower Grove South,2008,24,21,1
+15,Tower Grove South,2009,29,27,0
+15,Tower Grove South,2010,26,24,0
+15,Tower Grove South,2011,32,30,0
+15,Tower Grove South,2012,43,41,2
+15,Tower Grove South,2013,50,49,2
+15,Tower Grove South,2014,48,47,2
+15,Tower Grove South,2015,53,52,1
+15,Tower Grove South,2016,55,51,4
+15,Tower Grove South,2017,40,38,2
+15,Tower Grove South,2018,40,39,1
+58,Vandeventer,1990,145,134,24
+58,Vandeventer,1991,180,151,28
+58,Vandeventer,1992,166,155,19
+58,Vandeventer,1993,175,158,28
+58,Vandeventer,1994,181,168,16
+58,Vandeventer,1995,220,201,24
+58,Vandeventer,1996,195,179,25
+58,Vandeventer,1997,183,169,24
+58,Vandeventer,1998,161,149,23
+58,Vandeventer,1999,140,127,20
+58,Vandeventer,2000,126,112,15
+58,Vandeventer,2001,110,99,13
+58,Vandeventer,2002,168,153,15
+58,Vandeventer,2003,161,150,13
+58,Vandeventer,2004,141,131,10
+58,Vandeventer,2005,135,126,10
+58,Vandeventer,2006,123,114,9
+58,Vandeventer,2007,128,120,8
+58,Vandeventer,2008,125,115,10
+58,Vandeventer,2009,120,111,8
+58,Vandeventer,2010,110,104,4
+58,Vandeventer,2011,109,104,3
+58,Vandeventer,2012,147,136,10
+58,Vandeventer,2013,140,131,8
+58,Vandeventer,2014,135,130,5
+58,Vandeventer,2015,116,113,4
+58,Vandeventer,2016,116,113,4
+58,Vandeventer,2017,100,99,2
+58,Vandeventer,2018,104,104,3
+49,Visitation Park,1990,6,6,0
+49,Visitation Park,1991,6,6,0
+49,Visitation Park,1992,6,5,1
+49,Visitation Park,1993,8,7,0
+49,Visitation Park,1994,9,8,0
+49,Visitation Park,1995,11,10,0
+49,Visitation Park,1996,11,10,0
+49,Visitation Park,1997,13,12,0
+49,Visitation Park,1998,14,13,0
+49,Visitation Park,1999,18,18,0
+49,Visitation Park,2000,13,13,0
+49,Visitation Park,2001,13,13,0
+49,Visitation Park,2002,11,11,0
+49,Visitation Park,2003,13,13,0
+49,Visitation Park,2004,12,12,0
+49,Visitation Park,2005,9,9,0
+49,Visitation Park,2006,13,11,2
+49,Visitation Park,2007,12,10,2
+49,Visitation Park,2008,12,10,2
+49,Visitation Park,2009,6,4,2
+49,Visitation Park,2010,4,3,1
+49,Visitation Park,2011,8,7,1
+49,Visitation Park,2012,8,7,1
+49,Visitation Park,2013,8,7,1
+49,Visitation Park,2014,8,7,1
+49,Visitation Park,2015,8,7,1
+49,Visitation Park,2016,8,7,1
+49,Visitation Park,2017,7,6,1
+49,Visitation Park,2018,5,5,0
+72,Walnut Park East,1990,193,187,11
+72,Walnut Park East,1991,215,212,10
+72,Walnut Park East,1992,196,192,9
+72,Walnut Park East,1993,188,178,7
+72,Walnut Park East,1994,209,206,7
+72,Walnut Park East,1995,213,210,7
+72,Walnut Park East,1996,274,271,10
+72,Walnut Park East,1997,280,274,12
+72,Walnut Park East,1998,284,278,11
+72,Walnut Park East,1999,258,249,10
+72,Walnut Park East,2000,225,220,5
+72,Walnut Park East,2001,208,204,5
+72,Walnut Park East,2002,234,232,4
+72,Walnut Park East,2003,259,250,10
+72,Walnut Park East,2004,270,258,12
+72,Walnut Park East,2005,206,195,9
+72,Walnut Park East,2006,229,221,6
+72,Walnut Park East,2007,207,199,6
+72,Walnut Park East,2008,205,200,4
+72,Walnut Park East,2009,199,195,3
+72,Walnut Park East,2010,149,146,3
+72,Walnut Park East,2011,143,140,3
+72,Walnut Park East,2012,143,140,3
+72,Walnut Park East,2013,137,134,3
+72,Walnut Park East,2014,134,131,3
+72,Walnut Park East,2015,251,248,4
+72,Walnut Park East,2016,334,331,3
+72,Walnut Park East,2017,359,356,5
+72,Walnut Park East,2018,361,358,5
+76,Walnut Park West,1990,39,37,3
+76,Walnut Park West,1991,72,68,3
+76,Walnut Park West,1992,48,46,3
+76,Walnut Park West,1993,36,35,0
+76,Walnut Park West,1994,51,51,0
+76,Walnut Park West,1995,53,53,0
+76,Walnut Park West,1996,76,76,2
+76,Walnut Park West,1997,85,85,2
+76,Walnut Park West,1998,66,64,3
+76,Walnut Park West,1999,64,61,4
+76,Walnut Park West,2000,59,56,4
+76,Walnut Park West,2001,60,57,4
+76,Walnut Park West,2002,76,72,5
+76,Walnut Park West,2003,100,97,4
+76,Walnut Park West,2004,121,118,4
+76,Walnut Park West,2005,147,144,3
+76,Walnut Park West,2006,171,170,1
+76,Walnut Park West,2007,198,197,1
+76,Walnut Park West,2008,162,161,3
+76,Walnut Park West,2009,152,151,2
+76,Walnut Park West,2010,137,136,2
+76,Walnut Park West,2011,149,148,3
+76,Walnut Park West,2012,148,147,3
+76,Walnut Park West,2013,135,134,3
+76,Walnut Park West,2014,209,207,4
+76,Walnut Park West,2015,209,207,4
+76,Walnut Park West,2016,195,194,3
+76,Walnut Park West,2017,212,211,3
+76,Walnut Park West,2018,213,212,3
+50,Wells / Goodfellow,1990,247,221,46
+50,Wells / Goodfellow,1991,325,292,52
+50,Wells / Goodfellow,1992,367,337,53
+50,Wells / Goodfellow,1993,389,355,62
+50,Wells / Goodfellow,1994,372,357,45
+50,Wells / Goodfellow,1995,375,358,49
+50,Wells / Goodfellow,1996,353,338,43
+50,Wells / Goodfellow,1997,461,437,48
+50,Wells / Goodfellow,1998,499,477,44
+50,Wells / Goodfellow,1999,474,451,40
+50,Wells / Goodfellow,2000,543,508,50
+50,Wells / Goodfellow,2001,525,492,45
+50,Wells / Goodfellow,2002,561,526,53
+50,Wells / Goodfellow,2003,463,436,46
+50,Wells / Goodfellow,2004,509,481,47
+50,Wells / Goodfellow,2005,479,458,37
+50,Wells / Goodfellow,2006,499,472,39
+50,Wells / Goodfellow,2007,489,467,31
+50,Wells / Goodfellow,2008,395,379,17
+50,Wells / Goodfellow,2009,341,329,13
+50,Wells / Goodfellow,2010,360,346,15
+50,Wells / Goodfellow,2011,368,351,20
+50,Wells / Goodfellow,2012,398,382,18
+50,Wells / Goodfellow,2013,417,401,18
+50,Wells / Goodfellow,2014,467,451,19
+50,Wells / Goodfellow,2015,508,490,21
+50,Wells / Goodfellow,2016,653,628,36
+50,Wells / Goodfellow,2017,665,625,47
+50,Wells / Goodfellow,2018,605,570,44
+48,West End,1990,110,107,6
+48,West End,1991,117,110,7
+48,West End,1992,148,144,6
+48,West End,1993,139,137,4
+48,West End,1994,160,157,5
+48,West End,1995,159,156,5
+48,West End,1996,140,136,4
+48,West End,1997,154,146,8
+48,West End,1998,147,141,8
+48,West End,1999,178,168,12
+48,West End,2000,185,173,13
+48,West End,2001,180,168,13
+48,West End,2002,177,165,12
+48,West End,2003,157,148,8
+48,West End,2004,143,135,9
+48,West End,2005,124,117,7
+48,West End,2006,119,111,6
+48,West End,2007,117,109,7
+48,West End,2008,107,99,7
+48,West End,2009,106,97,7
+48,West End,2010,111,102,7
+48,West End,2011,119,111,6
+48,West End,2012,120,115,4
+48,West End,2013,135,127,8
+48,West End,2014,125,118,7
+48,West End,2015,132,127,5
+48,West End,2016,180,175,7
+48,West End,2017,175,171,7
+48,West End,2018,158,154,7
+45,Wydown / Skinker,1990,0,0,0
+45,Wydown / Skinker,1991,0,0,0
+45,Wydown / Skinker,1992,0,0,0
+45,Wydown / Skinker,1993,0,0,0
+45,Wydown / Skinker,1994,0,0,0
+45,Wydown / Skinker,1995,0,0,0
+45,Wydown / Skinker,1996,0,0,0
+45,Wydown / Skinker,1997,0,0,0
+45,Wydown / Skinker,1998,0,0,0
+45,Wydown / Skinker,1999,0,0,0
+45,Wydown / Skinker,2000,0,0,0
+45,Wydown / Skinker,2001,0,0,0
+45,Wydown / Skinker,2002,0,0,0
+45,Wydown / Skinker,2003,0,0,0
+45,Wydown / Skinker,2004,0,0,0
+45,Wydown / Skinker,2005,0,0,0
+45,Wydown / Skinker,2006,0,0,0
+45,Wydown / Skinker,2007,0,0,0
+45,Wydown / Skinker,2008,0,0,0
+45,Wydown / Skinker,2009,0,0,0
+45,Wydown / Skinker,2010,0,0,0
+45,Wydown / Skinker,2011,0,0,0
+45,Wydown / Skinker,2012,0,0,0
+45,Wydown / Skinker,2013,0,0,0
+45,Wydown / Skinker,2014,0,0,0
+45,Wydown / Skinker,2015,0,0,0
+45,Wydown / Skinker,2016,0,0,0
+45,Wydown / Skinker,2017,0,0,0
+45,Wydown / Skinker,2018,0,0,0

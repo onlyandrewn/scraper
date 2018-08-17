@@ -7,138 +7,25 @@
 	integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
 	crossorigin=""/>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
-	<style>
-
-	@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Montserrat:400,700');
-
-	body {
-		margin: 0;
-	}
-
-	.wrapper {
-		max-width: 700px;
-	}
-
-	input {
-		width: 300px;
-	}
-
-	#mapid { 
-		height: 700px;
-		width: 700px; 
-	}
-
-	.map__info {
-		width: 100%;
-		margin: 0 auto;
-		padding-left: 24px;
-	}
-
-	.map__subheadline {
-		font-family: 'Georgia', sans-serif;
-		font-size: 14px;
-		font-style: italic;
-		margin-top: 4px;
-	}
-
-	.map__headline {
-		font-family: 'Libre Franklin', sans-serif;
-		margin: 0;
-		font-weight: 700;
-		color: #4a4a4a;
-		margin-top: 24px;
-	}
-
-	.map__slider {
-		font-family: 'Libre Franklin', sans-serif;
-		font-size: 14px;
-	}
-
-	.is-left {
-		margin-right: 8px;
-	}
-
-	.is-right {
-		margin-left: 8px;
-	}
-
-	.is-left,
-	.is-right {
-		position: relative;
-		top: -2px;
-	}
-
-	.button__wrapper {
-		margin-bottom: 24px;
-	}
-
-	button {
-		background: none;
-		border: 1px solid #000;
-		border-radius: 3px;
-		padding: 8px;
-		padding-left: 16px;
-		padding-right: 16px;
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: 700;
-		letter-spacing: 0.5px;
-		cursor: pointer;
-	}
-
-	.fa-play,
-	.fa-pause,
-	.fa-redo {
-		margin-right: 8px;
-	}
-
-	.map__attribution {
-		color: #848484;
-		font-family: 'Libre Franklin', sans-serif;
-		font-size: 12px;
-		padding-left: 8px;
-		display: none;
-		/*font-style: italic;*/
-	}
-
-	.map__attribution span {
-		font-weight: 700;
-		margin-left: 8px;
-	}
-
-	.map__label {
-		color: #c62828;
-		font-family: 'Libre Franklin', sans-serif;
-		font-weight: 700;
-		letter-spacing: 0.5px;
-		text-transform: uppercase;
-		margin-bottom: 8px;
-		font-size: 14px;
-		display: none;
-	}
-</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	
 	<div class="wrapper">
 
 		<div class="map__info">
-			<!-- <p class="map__label">Interactive</p> -->
 			<p class="map__headline">Vacant buildings in St. Louis by neighborhood (1990-2018)</p>
 			<p class="map__subheadline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-			<p class="map__slider"><span class="is-left">1990</span><input id="slider" class="slider" type="range" value="0" min="0" max="28"><span class="is-right">2018</span></p>
+			<p class="map__slider"><span class="is-left">1990</span><input id="slider" class="slider" type="range" value="1990" min="1990" max="2018"><span class="is-right">2018</span></p>
 
 			<div class="button__wrapper">
 				<button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
-				<button class="btn btn-restart"><i class="fas fa-redo"></i> Restart</button>
+				<button class="btn btn-restart"><i class="fas fa-redo"></i> Reset</button>
 			</div>
 		</div>
 
 		<div id="mapid"></div>
-
-		<p class="map__attribution"><span>Data:</span> Geo St. Louis. <span>Map:</span> Andrew Nguyen / St. Louis-Post-Dispatch</p>
 	</div>
 
 
@@ -149,102 +36,224 @@
 	<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
 	integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
 	crossorigin=""></script>
-	<!-- <script src="scripts.js" type="text/javascript"></script> -->
 
 	<script>
 
+		var year, geojson, map = null, info = null, map_layer = null;
+
 		// Map
-		function init(data) {
-			var map = L.map('mapid').setView([38.6301, -90.2564], 11);
-			// var map = L.map('mapid').setView([38.6270, -90.1994], 11);
-			map.scrollWheelZoom.disable();
+		function render_map(data, year) {
 
-			L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
-				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-				maxZoom: 18,
-				subdomains: 'abc'
-			}).addTo(map);
 
-			$.getJSON("neighborhoods.geojson",function(hoodData){
-			  L.geoJson( hoodData ).addTo(map);
-			}); 
+			var last_clicked_layer;
 
-			var info = L.control();
+			function highlightFeature(e) {
+				var layer = e.target;
 
-			info.onAdd = function (map) {
-				this._div = L.DomUtil.create('div', 'info');
-				this.update();
-				return this._div;
-			};
+				if (last_clicked_layer) {
+					map_layer.resetStyle(last_clicked_layer);
+			  	}
 
-			info.update = function(props) {
-				if (props) {
-					var neighborhoods = props['NHD_NUM'];
+				layer.setStyle({
+					weight: 5,
+					color: '#666',
+					dashArray: '',
+					fillOpacity: 0.7
+				});
 
-					// // Spreadsheet fields
-					// var apps = props['STLMSAMO_tract_total_applications'];
-					// var granted = props['STLMSAMO_tract_total_loans'];
-					// var denied = props['STLMSAMO_tract_total_denials'];
-					// var other = props['STLMSAMO_tract_total_other_outcomes'];
-					// var white = props['STLMSAMO_tract_white_pop_pct'];
-					// var black = props['STLMSAMO_tract_black_pop_pct'];
-
-					this._div.innerHTML = "<div class='popup'><div class='popup__title'><p>Census tract: <span>" + tract + "</div></p><p>Total applications: <span>" + apps + "</span></p><p>Loans denied: <span>" + denied + "</span></p><p>Total other outcomes: <span>" + other + "</span></p><p>% white population: <span>" + white + "</span></p><p>% black population: <span>" + black + "</span></p><p class='popup__name'><p>Loans made: <span>" + granted + "</span></p></div>";
-					}
-
+				if (!L.Browser.ie && !L.Browser.opera) {
+					layer.bringToFront();
 				}
 
-			info.addTo(map);
+				info.update(layer.feature.properties);
+				last_clicked_layer = layer;
+			}
+
+			function resetHighlight(e) {
+				map_layer.resetStyle(e.target);
+				info.update();
+			}
 
 			function onEachFeature(feature, layer) {
-				console.log(feature);
 				layer.on({
 					click: highlightFeature,
 				});
 			}
 
+			// Declare a geojson variable
+			// var geojson;
 			function setStyle(feature) {
-				let loans = feature.properties['STLMSAMO_tract_total_loans'];
+				let vacant_total = feature.properties[year].total;
 
-			    return {
-			        opacity: 0.7,
-			        weight: 1,
-			        color: "#FFF",
-			        fillColor: setColor(loans),
-			        fillOpacity: 0.7
-			    }
+				return {
+					opacity: 0.7,
+					weight: 1,
+					color: "#fff",
+					fillColor: setColor(vacant_total),
+					fillOpacity: 0.7
+				}
 			}
 
-			var geojson;
+			function setColor(d) {
+				return d >= 600 ? '#8c2d04' :
+					   d >= 500 ? '#cc4c02' :
+					   d >= 400 ? '#ec7014' :
+					   d >= 300 ? '#fe9929' :
+					   d >= 200 ? '#fec44f' :
+					   d >= 100 ? '#fee391' :
+								  '#ffffd4';
+			}
 
-			geojson = L.geoJson(data, {
+			// Initialize the map and add latitude and longitude coordinates and zoom level
+			if (!map) {
+				map = L.map('mapid').setView([38.6301, -90.2564], 11);
+
+				// These are open street map tiles. Remember to include the attribution
+				L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+					attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+					minZoom: 8,
+					maxZoom: 18,
+					subdomains: 'abc'
+				}).addTo(map);
+
+
+				var legend = L.control({position: 'bottomleft'});
+
+				legend.onAdd = function(map) {
+
+					var div = L.DomUtil.create('div', 'info legend'),
+						grades = [0, 100, 200, 300, 400, 500, 600],
+						labels = [],
+
+						// Determines the labels for each range
+						descriptions = ["0-99", "100-199", "200-299", "300-399", "400-499", "500-599", "600 and up"];
+
+					for (var i = 0; i < grades.length; i++) {
+						labels.push(
+							'<i style="background:' + setColor(grades[i]) + '"></i>' + descriptions[i]);
+					}
+
+					div.innerHTML = "<h4>tk-header</h4>" + labels.join('<br>') + '<div class="source">Source: Geo St. Louis</div>';
+					return div;
+				};
+
+				legend.addTo(map);
+			}
+
+			// This is relevant for mobile to disable scroll wheel zoom
+			map.scrollWheelZoom.disable();
+
+			if (!info) {
+				info = L.control();
+
+				info.onAdd = function (map) {
+					this._div = L.DomUtil.create('div', 'info');
+					this.update();
+					return this._div;
+				};
+
+				info.update = function(props) {
+					if (props) {
+						var neighborhood_num = props['nhd_num'];
+
+						var neighborhood_name = props['nhd'];
+						var neighborhood_total = props[year]['total'];
+						var neighborhood_residential = props[year]['residential'];
+						var neighborhood_commercial = props[year]['commercial'];
+
+						this._div.innerHTML = "<div class='popup'><div class='popup__title'><p>Name: <span>" + neighborhood_name + "</div></p><p>Total: <span>" + neighborhood_total + "</span></p><p>Residential: <span>" + neighborhood_residential + "</span></p><p>commercial: <span>" + neighborhood_commercial + "</span></p></div>";
+						}
+					}
+
+				info.addTo(map);
+			}
+
+			if (map_layer) {
+				map.removeLayer(map_layer);
+			}
+
+			map_layer = L.geoJson(data, {
 				style: setStyle,
 				onEachFeature: onEachFeature
 			}).addTo(map);
 		}
 
-		$.ajax({
-			url: 'neighborhoods.geojson',
-			method: 'GET',
-			dataType: 'json',
-		}).then(function(data){
-			init(data);
-		});
+		function getJsonData(url) {
+			return $.ajax({
+				url: url,
+				type: 'GET',
+				dataType: 'json'
+			});
+		}
 
-		let step = 0;
+		$.when( 
+				getJsonData("vacant.json"), 
+				getJsonData("neighborhoods.geojson") 
+			)
+			.fail(
+				function(a,b) {
+				}
+			)
+			.done( 
+				function(a,b) { 
+					if (a[1] == 'success' && b[1] == 'success') {
 
-		var timer = setTimeout(function(){
-			incrementStep();
-		}, 1000);
+						// May need to change this one to suit your needs
+						let csv_data = a[0];
+						geojson = b[0];
+						year = 1990;
+
+						// Iterate over all the neighborhoods
+						// Filter the CSV data to that specific neighborhood's rows
+						// Then iterate over the filtered data adding each property to that neighborhood in that geojson
+
+						let featureLen = geojson.features.length;
+						// Iterate over all features in the map so we can join data to each one.
+
+						for (let i = 0; i < featureLen; i++) {
+
+							let nhd_num = geojson.features[i].properties['nhd_num'];
+							let nhd_rows = csv_data.filter(row => row.nhd_num === nhd_num);
+
+							if (nhd_rows.length > 0) {
+
+								// Iterate over all columns of data from this neighborhood and add them to the map
+								for (let j = 0; j < nhd_rows.length; j++) {
+									let row_year = nhd_rows[j].year;
+
+									 geojson.features[i].properties[row_year] = {
+									 	"total": nhd_rows[j].total,
+									 	"residential": nhd_rows[j].residential,
+									 	"commercial": nhd_rows[j].commercial
+									 };
+								}
+							} else {
+
+							}
+						}
+
+						render_map(geojson, year);
+					}
+				}
+			);
+
+		var timer;
 
 		// Adds one to the input's value
 		function incrementStep() {
-			$(".slider").val(step++);
+			$("#slider").val( parseInt($("#slider").val()) + 1);
+
+			$("#slider").change();
 		}
 
 		function startTimer() {
 			incrementStep();
-			timer = setTimeout(startTimer, 1000);
+
+			if (parseInt($(".slider").val()) === 2018) {
+				stopTimer();
+			} else {
+				timer = setTimeout(startTimer, 1000);
+			}
 		}
 
 		function stopTimer() {
@@ -253,14 +262,22 @@
 
 		// Make the value of the input 0
 		function restartTimer() {
-			step = 0
-
-			$(".slider").val(step);
+			$("#slider").val(1990);
 		}
+
+		// Match on the total column
+		// Based on the year, provided filtered data
+		// Render the map with the new data
+		// By default, display 1990 data
+
+		// function render_map(geojson, year) {
+
+		// 	let filtered_data = csv_data.filter(row => row.year === year);
+		// 	console.log(filtered_data);
+		// }
 
 		// On click, toggle the play and pause icons
 		$(".btn-play").click(function(){
-			console.log(step);
 
 			$(this).find("i").toggleClass("fa-play fa-pause");
 
@@ -282,8 +299,19 @@
 		});
 
 		// Upon dragging the slider, change the value of the step
-		$(".slider").on("input", function(){
-			$(this).val();
+		$("#slider").on("input", function(){
+			let value = $(this).val();
+			console.log(value);
+
+			render_map(geojson, value);
+		});
+
+		$("#slider").on("change", function(){
+			let value = $(this).val();
+			console.log(value);
+
+			// Get value, display year's data
+			render_map(geojson, value);
 		});
 
 	</script>

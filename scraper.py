@@ -1,12 +1,4 @@
-# Go to http://dynamic.stlouis-mo.gov/citydata/newdesign/statsselector.cfm?type=data&geo=neigh
-# Select a neighbourhood
-# Select vacant buildings
-# Hit submit
-# Put the data into a spreadsheet each with its own individual tab
-# Year Total Residential Commercial are the headers
-# The years range from 1990 - 2018
-
-import urllib2 # For opening and reading URLs
+import urllib2
 import selenium
 import time
 import re
@@ -101,9 +93,3 @@ def open_pages():
 	make_spreadsheet( out_data )
 
 open_pages()
-
-
-
-
-
-
