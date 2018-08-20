@@ -15,9 +15,45 @@
 
 		<div class="map__info">
 			<p class="map__headline">Vacant buildings in St. Louis by neighborhood (1990-2018)</p>
-			<p class="map__subheadline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<!-- <p class="map__subheadline">The number of vacant buildings has more than doubled in St. Louis since 1990, but the growth has been more dramatic in some neighborhoods.</p> -->
+			
+			<p class="map__year"><span class="is-emphasis">Current year:</span> <span class="map__current">1990</span></p>
+			<p class="map__sentence is-hidden">In <span class="map__sentence-year">tk-year</span>, <span class="map__sentence-neighborhood">tk-neighborhood</span> had a total of <span class="map__sentence-total">tk-number</span> vacant buildings. Of these buildings, <span class="map__sentence-residential">tk-number</span> were residential and <span class="map__sentence-commercial">tk-number</span> were commercial.</p>
+			<p class="map__sentence">Click on a neighborhood to see more information.</p>
 
-			<p class="map__slider"><span class="is-left">1990</span><input id="slider" class="slider" type="range" value="1990" min="1990" max="2018"><span class="is-right">2018</span></p>
+			<p class="map__slider"><span class="map__start">1990</span><input id="slider" list="sliderlist" class="slider" type="range" value="1990" min="1990" max="2018"><span class="map__end">2018</span></p>
+
+			<datalist id="sliderlist">
+			    <option>1990</option>
+			    <option>1991</option>
+			    <option>1992</option>
+			    <option>1993</option>
+			    <option>1994</option>
+			    <option>1995</option>
+			    <option>1996</option>
+			    <option>1997</option>
+			    <option>1998</option>
+			    <option>1999</option>
+			    <option>2000</option>
+			    <option>2001</option>
+			    <option>2002</option>
+			    <option>2003</option>
+			    <option>2004</option>
+			    <option>2005</option>
+			    <option>2006</option>
+			    <option>2007</option>
+			    <option>2008</option>
+			    <option>2009</option>
+			    <option>2010</option>
+			    <option>2011</option>
+			    <option>2012</option>
+			    <option>2013</option>
+			    <option>2014</option>
+			    <option>2015</option>
+			    <option>2016</option>
+			    <option>2017</option>
+			    <option>2018</option>
+			</datalist>
 
 			<div class="button__wrapper">
 				<button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
@@ -39,13 +75,14 @@
 
 	<script>
 
-		var year, geojson, map = null, info = null, map_layer = null;
+		var year, geojson, map = null, info = null, map_layer = null, last_clicked_layer = null;
 
 		// Map
 		function render_map(data, year) {
 
-
-			var last_clicked_layer;
+			if (last_clicked_layer) {
+				info.update(last_clicked_layer.feature.properties, year);
+		  	}
 
 			function highlightFeature(e) {
 				var layer = e.target;
@@ -65,7 +102,7 @@
 					layer.bringToFront();
 				}
 
-				info.update(layer.feature.properties);
+				info.update(layer.feature.properties, year);
 				last_clicked_layer = layer;
 			}
 
@@ -96,11 +133,11 @@
 
 			function setColor(d) {
 				return d >= 600 ? '#8c2d04' :
-					   d >= 500 ? '#cc4c02' :
-					   d >= 400 ? '#ec7014' :
-					   d >= 300 ? '#fe9929' :
-					   d >= 200 ? '#fec44f' :
-					   d >= 100 ? '#fee391' :
+					   d >= 400 ? '#cc4c02' :
+					   d >= 200 ? '#ec7014' :
+					   d >= 100 ? '#fe9929' :
+					   d >= 50 ?  '#fec44f' :
+					   d >= 25 ?  '#fee391' :
 								  '#ffffd4';
 			}
 
@@ -122,18 +159,18 @@
 				legend.onAdd = function(map) {
 
 					var div = L.DomUtil.create('div', 'info legend'),
-						grades = [0, 100, 200, 300, 400, 500, 600],
+						grades = [0, 25, 50, 100, 200, 400, 600],
 						labels = [],
 
 						// Determines the labels for each range
-						descriptions = ["0-99", "100-199", "200-299", "300-399", "400-499", "500-599", "600 and up"];
+						descriptions = ["0-24", "25-49", "50-99", "100-199", "200-399", "400-599", "600 and up"];
 
 					for (var i = 0; i < grades.length; i++) {
 						labels.push(
 							'<i style="background:' + setColor(grades[i]) + '"></i>' + descriptions[i]);
 					}
 
-					div.innerHTML = "<h4>tk-header</h4>" + labels.join('<br>') + '<div class="source">Source: Geo St. Louis</div>';
+					div.innerHTML = "<h4>Legend</h4>" + labels.join('<br>') + '<div class="source">Source: Geo St. Louis</div>';
 					return div;
 				};
 
@@ -152,7 +189,10 @@
 					return this._div;
 				};
 
-				info.update = function(props) {
+				info.update = function(props, year) {
+					console.log(props);
+					console.log(year);
+
 					if (props) {
 						var neighborhood_num = props['nhd_num'];
 
@@ -161,7 +201,13 @@
 						var neighborhood_residential = props[year]['residential'];
 						var neighborhood_commercial = props[year]['commercial'];
 
-						this._div.innerHTML = "<div class='popup'><div class='popup__title'><p>Name: <span>" + neighborhood_name + "</div></p><p>Total: <span>" + neighborhood_total + "</span></p><p>Residential: <span>" + neighborhood_residential + "</span></p><p>commercial: <span>" + neighborhood_commercial + "</span></p></div>";
+						var sentence = `In <span class='map__sentence-year'>${year}</span>, <span class='map__sentence-neighborhood'>${neighborhood_name}</span> had a total of <span class='map__sentence-total'>${neighborhood_total}</span> vacant buildings. Of these buildings, <span class='map__sentence-residential'>${neighborhood_residential}</span> were residential and <span class='map__sentence-commercial'>${neighborhood_commercial}</span> were commercial.`;
+
+						
+							$(".is-hidden").html(sentence);
+
+							$(".is-hidden").show();
+							$(".map__sentence").not(".is-hidden").hide();
 						}
 					}
 
@@ -244,6 +290,8 @@
 			$("#slider").val( parseInt($("#slider").val()) + 1);
 
 			$("#slider").change();
+
+			$(".map__current").text($("#slider").val());
 		}
 
 		function startTimer() {
@@ -263,18 +311,14 @@
 		// Make the value of the input 0
 		function restartTimer() {
 			$("#slider").val(1990);
+			$(".map__current").text($("#slider").val());
+
+			$(".map__sentence").not(".is-hidden").show();
+			$(".is-hidden").hide();
+
+			last_clicked_layer = null;
+			render_map(geojson, 1990);
 		}
-
-		// Match on the total column
-		// Based on the year, provided filtered data
-		// Render the map with the new data
-		// By default, display 1990 data
-
-		// function render_map(geojson, year) {
-
-		// 	let filtered_data = csv_data.filter(row => row.year === year);
-		// 	console.log(filtered_data);
-		// }
 
 		// On click, toggle the play and pause icons
 		$(".btn-play").click(function(){
@@ -301,14 +345,14 @@
 		// Upon dragging the slider, change the value of the step
 		$("#slider").on("input", function(){
 			let value = $(this).val();
-			console.log(value);
+			$(".map__current").html(value);
 
 			render_map(geojson, value);
 		});
 
+		// Actually needed, otherwise the map does not change
 		$("#slider").on("change", function(){
 			let value = $(this).val();
-			console.log(value);
 
 			// Get value, display year's data
 			render_map(geojson, value);

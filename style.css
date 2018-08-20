@@ -4,12 +4,19 @@ body {
 	margin: 0;
 }
 
+a {
+	color: #c62828;
+	text-decoration: none;
+	/*border-bottom: 1px solid #c62828;*/
+}
+
 .wrapper {
 	max-width: 700px;
 }
 
 input {
-	width: 300px;
+	/*width: 300px;*/
+	width: 95%;
 }
 
 /* Map */
@@ -25,18 +32,35 @@ input {
 }
 
 .map__subheadline {
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 	font-size: 14px;
-	font-style: italic;
 	margin-top: 4px;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 24px;
 }
 
+.map__sentence {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+}
+
+.map__sentence.is-hidden {
+	display: none;
+}
 
 .map__headline,
 .map__slider,
 .map__attribution,
 .map__label {
 	font-family: 'Libre Franklin', sans-serif;
+}
+
+.map__start {
+	margin-right: 8px;
+}
+
+.map__end {
+	margin-left: 8px;
 }
 
 .map__headline {
@@ -48,6 +72,8 @@ input {
 
 .map__slider {
 	font-size: 14px;
+	display: flex;
+	/*width: 100%;*/
 }
 
 .map__attribution {
@@ -70,6 +96,12 @@ input {
 	margin-bottom: 8px;
 	font-size: 14px;
 	display: none;
+}
+
+.map__sentence-total,
+.map__sentence-residential,
+.map__sentence-commercial {
+	font-weight: 700;
 }
 
 /* Buttons */
@@ -107,10 +139,26 @@ button {
 	margin-left: 8px;
 }
 
-.is-left,
+/*.is-left,
 .is-right {
 	position: relative;
 	top: -2px;
+}
+*/
+
+.map__year {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+
+.map__year .is-emphasis {
+	font-weight: 700;
+	color: #c62828;
+}
+
+.map__current {
+	margin-left: 2px;
 }
 
 /* Other */
